@@ -1,10 +1,15 @@
+import Hero from '../components/sections/hero'
+import About from '../components/sections/about'
+import Menu from '../components/sections/menu'
+import Contact from '../components/sections/contact'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Welcome to Our Restaurant</h1>
-      <p className="mt-4 text-lg">
-        Experience the best dining in town. Reserve your table now!
-      </p>
+    <main>
+      <Hero />
+      <About />
+      <Menu />
+      <Contact />
     </main>
   );
 }
