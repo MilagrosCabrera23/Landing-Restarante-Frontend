@@ -1,106 +1,223 @@
-[00:00:02.859] Server  LOG     ✓ Ready in 2.1s
-[00:00:05.170] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:00:06.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:29.211] Server  LOG     ✓ Compiled in 1245ms
-[00:00:41.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:48.965] Server  LOG     ✓ Compiled in 436ms
-[00:01:50.789] Server  ERROR   ⨯ ReferenceError: Playfair_Display is not defined
-[00:01:51.610] Server  ERROR   ⨯ ReferenceError: Playfair_Display is not defined
-[00:01:54.618] Server  LOG     ○ Compiling /_error ...
-[00:02:01.848] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:02:01.931] Server  LOG     ✓ Compiled in 6.1s
-[00:02:03.752] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:02:03.937] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:24.325] Server  LOG     ✓ Compiled in 213ms
-[00:04:48.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:02.181] Server  LOG     ✓ Compiled in 340ms
-[00:05:41.382] Server  LOG     ✓ Compiled in 114ms
-[00:05:42.042] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:05:43.771] Server  LOG     ✓ Compiled in 87ms
-[00:05:44.141] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:06:06.232] Server  LOG     ✓ Compiled in 134ms
-[00:06:06.578] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:06:13.685] Server  LOG     ✓ Compiled in 95ms
-[00:06:14.335] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:08:22.912] Server  LOG     ✓ Compiled in 183ms
-[00:09:31.788] Server  LOG     ✓ Compiled in 145ms
-[00:09:34.920] Server  LOG     ✓ Compiled in 236ms
-[00:09:36.126] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/magui/Next/landing-restaurante/app/globals.css:20:3: Unknown word app
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[00:09:43.177] Server  LOG     ✓ Compiled in 1480ms
-[00:10:20.927] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:10:44.361] Server  LOG     ✓ Compiled in 106ms
-[00:10:44.565] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:10:55.386] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:11:02.339] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:11:17.067] Browser ERROR   ./components/layout/header.tsx:8:9
+[00:00:04.650] Server  LOG     ✓ Ready in 3.7s
+[00:00:09.606] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:11.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.127] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:10.668] Server  LOG     ✓ Compiled in 2.2s
+[00:04:11.733] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:16.967] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/salon.jpg" "received" null
+[00:04:16.979] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/sommelier.jpg" "received" null
+[00:04:16.988] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chef.jpg" "received" null
+[00:04:17.222] Browser ERROR   ./components/sections/about.tsx:81:5
 Parsing ecmascript source code failed
-   6 |     
-   7 |          <span className="text-luxury-gold font-light not-italic">Restaurante Gourmet</span>
->  8 |       </div>
-     |         ^^^
-   9 |
-  10 |       {/* 2. NAVEGACIÓN: Espaciada y con hover corregido */}
-  11 |       <nav className="flex items-center space-x-12">
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |
 
-Expected corresponding JSX closing tag for <header>
+Expected '}', got '<eof>'
 
 Import trace:
   Server Component:
-    ./components/layout/header.tsx
-    ./app/layout.tsx
-[00:11:19.717] Server  LOG     ✓ Compiled in 57ms
-[00:11:27.712] Server  LOG     ✓ Compiled in 55ms
-[00:11:27.891] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:11:32.263] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:12:14.999] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:44:20.851] Server  LOG     ✓ Compiled in 148ms
-[00:44:21.348] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:44:53.206] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:00.511] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:09.983] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:12.176] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:13.397] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:26.471] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:31.048] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:48.359] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:51.250] Server  LOG     ✓ Compiled in 51ms
-[00:45:51.445] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:46:00.127] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:46:09.061] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:46:28.287] Server  LOG     ✓ Compiled in 266ms
-[00:46:28.700] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:46:51.472] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:40.369] Server  LOG     ✓ Compiled in 254ms
-[00:47:40.614] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:43.850] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:45.644] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:07.521] Server  LOG     ✓ Compiled in 107ms
-[00:48:07.855] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:12.373] Server  LOG     ✓ Compiled in 203ms
-[00:48:12.781] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:17.819] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:18.170] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:31.290] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:35.759] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:50.078] Server  LOG     ✓ Compiled in 63ms
-[00:48:50.239] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:54.044] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:01.738] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:06.745] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:18.833] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/pastry.jpg" "received" null
+[00:04:18.836] Browser ERROR   ./components/sections/about.tsx:81:5
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:18.837] Browser ERROR   ./components/sections/about.tsx:81:5
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:18.837] Browser ERROR   ./components/sections/about.tsx:81:5
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:19.210] Browser ERROR   ./components/sections/about.tsx:81:5
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:30.211] Browser ERROR   ./components/sections/about.tsx:82:5
+Parsing ecmascript source code failed
+  80 |     </section>
+  81 | 	
+> 82 |   );
+     |     ^
+  83 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:32.214] Browser ERROR   ./components/sections/about.tsx:81:1
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 | }
+     | ^
+  82 |   );
+  83 |
+
+Expected ',', got '}'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:34.220] Browser ERROR   ./components/sections/about.tsx:81:5
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:43.210] Browser ERROR   ./components/sections/about.tsx:81:5
+Parsing ecmascript source code failed
+  79 |       </div>
+  80 |     </section>
+> 81 |   );
+     |     ^
+  82 |   
+  83 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/sections/about.tsx
+    ./app/page.tsx
+[00:04:43.486] Server  LOG     ✓ Compiled in 70ms
+[00:05:16.685] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:05:31.475] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:05:34.586] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:05:37.775] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:05:40.903] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:22:28.653] Server  LOG     ✓ Compiled in 124ms
+[00:22:29.135] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:22:29.989] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/s.jpg" "received" null
+[00:22:44.227] Server  LOG     ✓ Compiled in 241ms
+[00:22:44.658] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:22:44.956] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chica 1.jpg" "received" null
+[00:22:46.167] Server  LOG     ✓ Compiled in 93ms
+[00:22:46.456] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:22:47.400] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chic.jpg" "received" null
+[00:22:48.266] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:22:48.477] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chica1.jpg" "received" null
+[00:22:53.595] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chica1.jpg" "received" null
+[00:22:53.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:53.617] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chef.jpg" "received" null
+[00:22:53.620] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/salon.jpg" "received" null
+[00:22:53.623] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/pastry.jpg" "received" null
+[00:22:53.860] Browser WARN    Image with src "/team/chef.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:53.860] Browser WARN    Image with src "/team/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:53.860] Browser WARN    Image with src "/team/salon.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:53.860] Browser WARN    Image with src "/team/pastry.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:00.747] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chef.jpg" "received" null
+[00:23:00.751] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/chica1.jpg" "received" null
+[00:23:00.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:00.878] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/salon.jpg" "received" null
+[00:23:00.924] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/team/pastry.jpg" "received" null
+[00:23:00.941] Browser WARN    Image with src "/team/chef.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:00.941] Browser WARN    Image with src "/team/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:17.058] Server  LOG     ✓ Compiled in 172ms
+[00:23:17.347] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:23:19.543] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:42.622] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:23:55.728] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:24:09.437] Server  LOG     ✓ Compiled in 221ms
+[00:24:09.808] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:24:40.904] Server  LOG     ✓ Compiled in 107ms
+[00:24:41.100] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:24:42.488] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:24:52.482] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:02.624] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:03.000] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/chef.jpg" "received" null
+[00:26:17.151] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:17.591] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/salon.jpg" "received" null
+[00:26:29.364] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:31.135] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:14.812] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:31:15.567] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/.jpg" "received" null
+[00:31:18.587] Server  LOG     ✓ Compiled in 154ms
+[00:31:18.906] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:31:19.480] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:52.902] Server  LOG     ✓ Compiled in 301ms
+[00:33:53.374] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:33:53.766] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/chic.jpg" "received" null
+[00:33:57.492] Server  LOG     ✓ Compiled in 386ms
+[00:33:58.133] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:33:58.694] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/chico1.jpg" "received" null
+[00:34:03.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:03.902] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/chico1.jpg" "received" null
+[00:34:04.298] Browser WARN    Image with src "/chico1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.299] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.299] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.299] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:07.918] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/chico1.jpg" "received" null
+[00:34:08.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:08.440] Browser WARN    Image with src "/chico1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:08.440] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:08.440] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:08.440] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:21.690] Server  LOG     ✓ Compiled in 263ms
+[00:34:22.101] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:34:25.436] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:43.150] Server  LOG     ✓ Compiled in 231ms
+[01:00:43.764] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:00:45.085] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:00:48.546] Server  LOG     ✓ Compiled in 159ms
+[01:00:48.881] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:00:51.750] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:00:52.862] Server  LOG     ✓ Compiled in 58ms
+[01:00:53.007] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:00:54.264] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase

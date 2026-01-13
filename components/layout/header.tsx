@@ -17,7 +17,6 @@ export default function Header() {
           Galería
         </a>
         
-        {/* Botón de acción (CTA) como el de la imagen */}
         <a href="#reservar" className="bg-luxury-gold text-white px-8 py-2 text-[10px] uppercase tracking-widest hover:bg-luxury-charcoal transition-all duration-300 rounded-sm">
           Contacto
         </a>

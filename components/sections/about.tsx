@@ -1,62 +1,75 @@
-export default function About() {
-	return (
-		<section id="about" className="py-24 bg-white">
-			<div className="max-w-5xl mx-auto px-8">
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+import Image from 'next/image';
 
-					{/* Lado Izquierdo: Texto Narrativo */}
-					<div className="space-y-6">
-						<span className="text-luxury-gold uppercase tracking-[0.3em] text-xs font-semibold">
-							Nuestra Esencia
-						</span>
-						<h2 className="text-4xl md:text-5xl font-serif text-luxury-charcoal leading-tight">
-							Tradición que <br /> <span className="italic">Innova</span>
-						</h2>
-						<div className="space-y-4 text-gray-600 leading-relaxed">
-							<p>
-								En el corazón de <strong>Mendoza</strong>, Restaurante Gourmet nace como un tributo a la alta cocina de autor, fusionando la riqueza de las tradiciones locales con técnicas de vanguardia.
-							</p>
-							<p>
-								Nuestros valores se fundamentan en el respeto absoluto por la materia prima y la búsqueda constante de la excelencia, creando una experiencia sensorial única para cada comensal.
-							</p>
-						</div>
-					</div>
+const team = [
+  {
+    name: "Marco De la Vega",
+    role: "Chef Ejecutivo",
+    bio: "Especialista en cocina de vanguardia con raíces mendocinas.",
+    image: "/CHEF.jpg"
+  },
+  {
+    name: "Lucía Sanchez",
+    role: "Sommelier",
+    bio: "Curadora de nuestra cava, experta en maridajes de altura.",
+    image: "/chica1.jpg"
+  },
+  {
+    name: "Andrés Silva",
+    role: "Jefe de Salón",
+    bio: "Dedicado a que cada visita sea una experiencia impecable.",
+    image: "/chico2.jpg"
+  },
+  {
+    name: "Elena Martínez",
+    role: "Pastelera",
+    bio: "Transforma ingredientes locales en arte dulce de autor.",
+    image: "/chica2.jpg"
+  }
+];
 
-					{/* Lado Derecho: Info y Horarios */}
-					<div className="bg-luxury-ivory p-10 border border-luxury-gold/10 rounded-sm">
-						<h3 className="font-serif text-2xl text-luxury-charcoal mb-6 text-center">Visítenos</h3>
+export default function TeamSection() {
+  return (
+    <section className="w-full py-24 bg-white border-t border-luxury-gold/10">
+      <div className="max-w-6xl mx-auto px-8">
+        <div className="text-center mb-20 space-y-4">
+          <span className="text-luxury-gold uppercase tracking-[0.4em] text-[10px] font-bold">
+            El Alma de Restaurante 	Gourmet
+          </span>
+          <h2 className="text-4xl font-serif text-luxury-charcoal">
+            Nuestro <span className="not-italic">Equipo</span>
+          </h2>
+          <div className="w-12 h-[1px] bg-luxury-gold mx-auto mt-4"></div>
+        </div>
 
-						<div className="space-y-6">
-							<div>
-								<p className="text-luxury-gold uppercase tracking-widest text-[10px] mb-1 font-semibold">Ubicación</p>
-								<p className="text-gray-700">Peatonal Sarmiento, Mendoza, Argentina</p>
-							</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+          {team.map((member, index) => (
+            <div key={index} className="flex flex-col items-center text-center group">
+              <div className="relative w-40 h-40 mb-6 p-1 border border-luxury-gold/20 rounded-full group-hover:border-luxury-gold transition-colors duration-500">
+                <div className="relative w-full h-full overflow-hidden rounded-full">
+                  <Image 
+                    src={member.image} 
+                    alt={member.name}
+                    fill
+                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
+                  />
+                </div>
+              </div>
+              <div className="space-y-2">
+                <h3 className="font-serif text-xl text-luxury-charcoal">
+                  {member.name}
+                </h3>
+                <p className="text-luxury-gold uppercase tracking-widest text-[9px] font-bold">
+                  {member.role}
+                </p>
+                <p className="text-gray-500 text-sm font-sans leading-relaxed max-w-[200px] mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  {member.bio}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
 
-							<div>
-								<p className="text-luxury-gold uppercase tracking-widest text-[10px] mb-1 font-semibold">Horarios de atención</p>
-								<ul className="text-gray-700 space-y-1">
-									<li className="flex justify-between">
-										<span>Martes a Domingo</span>
-										<span>12:30pm - 02:00am</span>
-									</li>
-								</ul>
-							</div>
-
-							<div className="pt-4">
-								<a
-									href="https://www.google.com/maps/search/?api=1&query=Peatonal+Sarmiento+Mendoza+Argentina"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="text-luxury-gold border-b border-luxury-gold pb-1 text-center"
-								>
-									Cómo llegar
-								</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-	);
+      </div>
+    </section>
+  );
 }
