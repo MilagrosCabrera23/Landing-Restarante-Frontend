@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative h-[85vh] min-h-150 w-full flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative h-[85vh] min-h-150 w-full flex items-center justify-center overflow-hidden">
       <Image
         src="/background-restaurant.jpg" 
         alt="Experiencia Gourmet en Restaurante Gourmet"
@@ -26,18 +27,18 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-5 justify-center">
-          <a 
+          <Link 
             href="#menu" 
             className="bg-luxury-gold text-white px-10 py-4 text-[10px] uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-500 font-bold shadow-xl"
           >
             Explorar Menú
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#reservar" 
             className="backdrop-blur-sm border border-white/50 text-white px-10 py-4 text-[10px] uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-500 font-bold"
           >
-            Reservar por WhatsApp
-          </a>
+            Reservar Mesa
+          </Link>
         </div>
       </div>
     </section>
