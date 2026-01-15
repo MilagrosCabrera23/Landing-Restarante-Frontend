@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative h-[85vh] min-h-150 w-full flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-150 w-full flex items-center justify-center">
       <Image
         src="/background-restaurant.jpg" 
         alt="Experiencia Gourmet en Restaurante Gourmet"
@@ -13,16 +13,16 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <span className="text-luxury-gold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block font-sans font-bold">
+        <span className="text-luxury-gold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block font-bold">
           Desde el corazón de Mendoza
         </span>
         
-        <h1 className="text-5xl md:text-7xl font-serif text-white mb-6 leading-[1.1]">
+        <h1 className="text-5xl md:text-7xl text-white mb-6 leading-[1.1]">
           El Arte de la <br /> 
           <span className="font-light">Alta Cocina</span>
         </h1>
         
-        <p className="text-base md:text-lg text-gray-200 mb-10 font-sans max-w-xl mx-auto leading-relaxed">
+        <p className="text-base md:text-lg text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed">
           Descubra una sinfonía de sabores diseñados para cautivar los sentidos en un ambiente de distinción única.
         </p>
 

@@ -25,7 +25,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "hero",
-        className: "relative h-[85vh] min-h-150 w-full flex items-center justify-center overflow-hidden",
+        className: "relative min-h-150 w-full flex items-center justify-center",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 src: "/background-restaurant.jpg",
@@ -49,7 +49,7 @@ function Hero() {
                 className: "relative z-10 text-center px-6 max-w-4xl mx-auto",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block font-sans font-bold",
+                        className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block font-bold",
                         children: "Desde el corazón de Mendoza"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/hero.tsx",
@@ -57,7 +57,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-5xl md:text-7xl font-serif text-white mb-6 leading-[1.1]",
+                        className: "text-5xl md:text-7xl text-white mb-6 leading-[1.1]",
                         children: [
                             "El Arte de la ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -80,7 +80,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-base md:text-lg text-gray-200 mb-10 font-sans max-w-xl mx-auto leading-relaxed",
+                        className: "text-base md:text-lg text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed",
                         children: "Descubra una sinfonía de sabores diseñados para cautivar los sentidos en un ambiente de distinción única."
                     }, void 0, false, {
                         fileName: "[project]/components/sections/hero.tsx",
@@ -143,554 +143,443 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const team = [
     {
-        name: "Marco De la Vega",
-        role: "Chef Ejecutivo",
-        bio: "Especialista en cocina de vanguardia con raíces mendocinas.",
-        image: "/CHEF.jpg"
+        name: 'Marco De la Vega',
+        role: 'Chef Ejecutivo',
+        bio: 'Especialista en cocina de vanguardia con raíces mendocinas.',
+        image: '/CHEF.jpg'
     },
     {
-        name: "Lucía Sanchez",
-        role: "Sommelier",
-        bio: "Curadora de nuestra cava, experta en maridajes de altura.",
-        image: "/chica1.jpg"
+        name: 'Lucía Sanchez',
+        role: 'Sommelier',
+        bio: 'Curadora de nuestra cava, experta en maridajes de altura.',
+        image: '/chica1.jpg'
     },
     {
-        name: "Andrés Silva",
-        role: "Jefe de Salón",
-        bio: "Dedicado a que cada visita sea una experiencia impecable.",
-        image: "/chico2.jpg"
+        name: 'Andrés Silva',
+        role: 'Jefe de Salón',
+        bio: 'Dedicado a que cada visita sea una experiencia impecable.',
+        image: '/chico2.jpg'
     },
     {
-        name: "Elena Martínez",
-        role: "Pastelera",
-        bio: "Transforma ingredientes locales en arte dulce de autor.",
-        image: "/chica2.jpg"
+        name: 'Elena Martínez',
+        role: 'Pastelera',
+        bio: 'Transforma ingredientes locales en arte dulce de autor.',
+        image: '/chica2.jpg'
     }
 ];
 function TeamSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "about",
-        className: "w-full py-24 bg-white border-t border-luxury-gold/10",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-6xl mx-auto px-8",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-16 items-center",
+        className: "w-full bg-white py-16 max-w-6xl mx-auto px-8",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 md:grid-cols-2 gap-20 items-center mb-20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-6",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold",
-                                    children: "Nuestra Esencia"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 38,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-serif text-luxury-charcoal leading-tight",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-center",
                                     children: [
-                                        "Tradición que ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 42,
-                                            columnNumber: 29
-                                        }, this),
-                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "italic",
-                                            children: "Innova"
+                                            className: "text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold",
+                                            children: "Nuestra Esencia"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 42,
-                                            columnNumber: 36
+                                            lineNumber: 41,
+                                            columnNumber: 8
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl md:text-5xl text-luxury-charcoal leading-tight",
+                                            children: [
+                                                "Tradición que ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/components/sections/about.tsx",
+                                                    lineNumber: 45,
+                                                    columnNumber: 23
+                                                }, this),
+                                                ' ',
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "italic",
+                                                    children: "Innova"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/about.tsx",
+                                                    lineNumber: 46,
+                                                    columnNumber: 9
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/sections/about.tsx",
+                                            lineNumber: 44,
+                                            columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 41,
-                                    columnNumber: 13
+                                    lineNumber: 40,
+                                    columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-4 text-gray-600 leading-relaxed font-sans",
+                                    className: "space-y-4 text-gray-600 leading-relaxed border-l-2 border-luxury-gold/20 pl-6 ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-balance text-base font-light",
                                             children: "En el corazón de Mendoza, Restaurante Gourmet nace como un tributo a la alta cocina de autor en abril del año 2009, fusionando la riqueza de las tradiciones locales con técnicas de vanguardia."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 46,
-                                            columnNumber: 15
+                                            lineNumber: 51,
+                                            columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-balance text-base font-light",
-                                            children: "Nuestros valores se fundamentan en el respeto absoluto por la materia prima y la búsqueda constante de la excelencia. Cada plato es una obra maestra que refleja nuestra pasión por la gastronomía y nuestro compromiso con la innovación culinaria."
+                                            children: "Nuestros valores se fundamentan en el respeto absoluto por la materia prima y la búsqueda constante de la excelencia."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 15
+                                            lineNumber: 57,
+                                            columnNumber: 8
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-balance text-base font-light",
+                                            children: "Cada plato es una obra maestra que refleja nuestra pasión por la gastronomía y nuestro compromiso con la innovación culinaria."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/about.tsx",
+                                            lineNumber: 61,
+                                            columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 45,
-                                    columnNumber: 13
+                                    lineNumber: 50,
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 37,
-                            columnNumber: 11
+                            lineNumber: 39,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "pl-6 border-l-2 border-luxury-gold space-y-10 py-6",
+                            className: "bg-luxury-ivory/30 p-10 rounded-sm border border-luxury-gold/10 space-y-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "group space-y-4",
+                                    className: "text-center border-b border-luxury-gold/20",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-3xl text-luxury-charcoal italic",
+                                        children: "Visítenos"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/about.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 8
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/about.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-serif text-3xl text-luxury-charcoal  italic mb-4",
-                                            children: "Visítenos"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 58,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-luxury-gold uppercase tracking-[0.2em] text-[10px] font-bold mb-1",
-                                            children: "Ubicación"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 59,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-luxury-charcoal font-serif text-lg leading-tight",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "group m-2",
                                             children: [
-                                                "Peatonal Sarmiento, ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-luxury-gold uppercase tracking-[0.3em] text-[10px] font-bold ",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "w-8 h-px bg-luxury-gold"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/about.tsx",
+                                                            lineNumber: 78,
+                                                            columnNumber: 10
+                                                        }, this),
+                                                        "Ubicación"
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 61,
-                                                    columnNumber: 37
+                                                    lineNumber: 77,
+                                                    columnNumber: 9
                                                 }, this),
-                                                " Mendoza"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-luxury-charcoal leading-tight group-hover:text-luxury-gold transition-colors duration-300",
+                                                    children: [
+                                                        "Peatonal Sarmiento,",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-base text-gray-600",
+                                                            children: "Mendoza, Argentina"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/about.tsx",
+                                                            lineNumber: 83,
+                                                            columnNumber: 10
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/sections/about.tsx",
+                                                    lineNumber: 81,
+                                                    columnNumber: 9
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 60,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 57,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-luxury-gold uppercase tracking-[0.2em] text-[10px] font-bold mb-1",
-                                            children: "Horarios"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 66,
-                                            columnNumber: 15
+                                            lineNumber: 76,
+                                            columnNumber: 8
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "Martes - Domingo: 12:30 pm - 02:00 am"
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-luxury-gold uppercase tracking-[0.3em] text-[10px] font-bold ",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "w-14 h-px bg-luxury-gold"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/about.tsx",
+                                                            lineNumber: 91,
+                                                            columnNumber: 10
+                                                        }, this),
+                                                        "Horarios"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/sections/about.tsx",
+                                                    lineNumber: 90,
+                                                    columnNumber: 9
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "pl-11 space-y-2",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-center justify-between text-gray-700",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-sm",
+                                                                children: "Martes - Domingo"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/sections/about.tsx",
+                                                                lineNumber: 96,
+                                                                columnNumber: 11
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-sm font-medium",
+                                                                children: "12:30 PM - 02:00 AM"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/sections/about.tsx",
+                                                                lineNumber: 97,
+                                                                columnNumber: 11
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/sections/about.tsx",
+                                                        lineNumber: 95,
+                                                        columnNumber: 10
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/about.tsx",
+                                                    lineNumber: 94,
+                                                    columnNumber: 9
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 67,
-                                            columnNumber: 15
+                                            lineNumber: 89,
+                                            columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 65,
-                                    columnNumber: 13
+                                    lineNumber: 75,
+                                    columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pt-6 border-t border-luxury-gold/10",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "https://www.google.com/maps/search/?api=1&query=Peatonal+Sarmiento+Mendoza+Argentina",
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "group inline-flex items-center text-luxury-charcoal font-bold uppercase tracking-widest text-[10px] hover:text-luxury-gold transition-colors",
+                                        className: "group flex items-center justify-center gap-2 w-full bg-luxury-gold text-white py-3 px-6 text-xs uppercase tracking-widest font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Ver en Mapa"
+                                                children: "Cómo llegar"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/about.tsx",
-                                                lineNumber: 77,
-                                                columnNumber: 17
+                                                lineNumber: 112,
+                                                columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                                 xmlns: "http://www.w3.org/2000/svg",
                                                 fill: "none",
                                                 viewBox: "0 0 24 24",
-                                                strokeWidth: 1.5,
+                                                strokeWidth: 2,
                                                 stroke: "currentColor",
-                                                className: "w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform",
+                                                className: "w-4 h-4 group-hover:translate-x-1 transition-transform",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                     strokeLinecap: "round",
                                                     strokeLinejoin: "round",
                                                     d: "M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 79,
-                                                    columnNumber: 19
+                                                    lineNumber: 121,
+                                                    columnNumber: 10
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/about.tsx",
-                                                lineNumber: 78,
-                                                columnNumber: 17
+                                                lineNumber: 113,
+                                                columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 71,
-                                        columnNumber: 15
+                                        lineNumber: 106,
+                                        columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 70,
-                                    columnNumber: 13
+                                    lineNumber: 105,
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 55,
-                            columnNumber: 11
+                            lineNumber: 68,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/about.tsx",
-                    lineNumber: 36,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/sections/about.tsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-center my-14 space-y-4",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] font-bold",
-                        children: "El Alma de Restaurante Gourmet"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/about.tsx",
-                        lineNumber: 93,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-4xl font-serif text-luxury-charcoal",
-                        children: [
-                            "Nuestro ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "not-italic",
-                                children: "Equipo"
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/about.tsx",
-                                lineNumber: 101,
-                                columnNumber: 19
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/sections/about.tsx",
-                        lineNumber: 99,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-12 h-px bg-luxury-gold mx-auto mt-4"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/about.tsx",
-                        lineNumber: 105,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/sections/about.tsx",
-                lineNumber: 91,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2",
-                children: team.map((member, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col items-center text-center group",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-40 h-40 p-1 border border-luxury-gold/20 rounded-full group-hover:border-luxury-gold transition-colors duration-500",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-full h-full overflow-hidden rounded-full",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: member.image,
-                                        alt: member.name,
-                                        fill: true,
-                                        className: "object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 114,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 113,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/about.tsx",
-                                lineNumber: 112,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "font-serif text-xl text-luxury-charcoal",
-                                        children: member.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 123,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-luxury-gold uppercase tracking-widest text-[9px] font-bold",
-                                        children: member.role
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 126,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-sm font-sans leading-relaxed max-w-50 mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500",
-                                        children: member.bio
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 129,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/sections/about.tsx",
-                                lineNumber: 122,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/components/sections/about.tsx",
-                        lineNumber: 111,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/components/sections/about.tsx",
-                lineNumber: 109,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/components/sections/about.tsx",
-        lineNumber: 34,
-        columnNumber: 5
-    }, this);
-}
-}),
-"[project]/components/sections/menu.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "default",
-    ()=>Menu
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-;
-const menuItems = [
-    {
-        id: 1,
-        nombre: "Ojo de Bife Abrasado",
-        precio: 28000,
-        imagen: "/plato-carne.jpg",
-        ingredientes: [
-            "Ojo de bife",
-            "Sal marina",
-            "Romero",
-            "Ajo confitado",
-            "Papa andina",
-            "Manteca",
-            "Pimienta"
-        ]
-    },
-    {
-        id: 2,
-        nombre: "Trucha Patagónica",
-        precio: 24500,
-        imagen: "/plato-pescado.jpg",
-        ingredientes: [
-            "Trucha",
-            "Limón sutil",
-            "Alcaparras",
-            "Eneldo",
-            "Crema de hinojo",
-            "Aceite de oliva"
-        ]
-    },
-    {
-        id: 3,
-        nombre: "Risotto de Hongos Silvestres",
-        precio: 22000,
-        imagen: "/plato-risotto.jpg",
-        ingredientes: [
-            "Arroz arborio",
-            "Hongos silvestres",
-            "Queso parmesano",
-            "Caldo de verduras",
-            "Cebolla",
-            "Ajo",
-            "Vino blanco"
-        ]
-    },
-    {
-        id: 4,
-        nombre: "Jabalí Estofado con Hongos",
-        precio: 15000,
-        imagen: "/plato-jabali.jpg",
-        ingredientes: [
-            "Carne de jabalí",
-            "Vino tinto",
-            "Champiñones",
-            "Cebolla",
-            "Zanahoria",
-            "Apio",
-            "Hierbas aromáticas"
-        ]
-    },
-    {
-        id: 5,
-        nombre: "Lasaña Vegetariana",
-        precio: 18000,
-        imagen: "/plato-lasaña.jpg",
-        ingredientes: [
-            "Pasta para lasaña",
-            "Berenjena",
-            "Calabacín",
-            "Espinaca",
-            "Ricota",
-            "Salsa de tomate",
-            "Queso mozzarella"
-        ]
-    },
-    {
-        id: 6,
-        nombre: "Pastel de Cordero Patagónico",
-        precio: 39000,
-        imagen: "/plato-cordero.jpg",
-        ingredientes: [
-            "Carne de cordero",
-            "Papas",
-            "Zanahorias",
-            "Cebolla",
-            "Ajo",
-            "Hierbas provenzales",
-            "Vino tinto"
-        ]
-    }
-];
-function Menu() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        id: "menu",
-        className: "w-full py-24 bg-luxury-ivory",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-6xl mx-auto px-8",
-            children: [
+                    lineNumber: 38,
+                    columnNumber: 5
+                }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center mb-20 space-y-4",
+                    className: "text-center m-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] font-bold",
-                            children: "Experiencia Culinaria"
+                            children: "El Alma de Restaurante Gourmet"
                         }, void 0, false, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 55,
-                            columnNumber: 11
+                            fileName: "[project]/components/sections/about.tsx",
+                            lineNumber: 133,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl md:text-5xl font-serif text-luxury-charcoal",
+                            className: "text-4xl text-luxury-charcoal",
                             children: [
-                                "Selección del ",
+                                "Nuestro ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "italic font-light",
-                                    children: "Chef"
+                                    className: "font-normal",
+                                    children: "Equipo"
                                 }, void 0, false, {
-                                    fileName: "[project]/components/sections/menu.tsx",
-                                    lineNumber: 59,
-                                    columnNumber: 27
+                                    fileName: "[project]/components/sections/about.tsx",
+                                    lineNumber: 137,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 58,
-                            columnNumber: 11
+                            fileName: "[project]/components/sections/about.tsx",
+                            lineNumber: 136,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-12 h-px bg-luxury-gold mx-auto mt-4"
+                            className: "w-16 h-px bg-luxury-gold mx-auto mt-4"
                         }, void 0, false, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 61,
-                            columnNumber: 11
+                            fileName: "[project]/components/sections/about.tsx",
+                            lineNumber: 139,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/components/sections/menu.tsx",
-                    lineNumber: 54,
-                    columnNumber: 9
+                    fileName: "[project]/components/sections/about.tsx",
+                    lineNumber: 132,
+                    columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16",
-                    children: menuItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(CardM, {
-                            name: item.name,
-                            price: item.price,
-                            description: item.description,
-                            image: item.image,
-                            ingredients: item.ingredients
-                        }, item.id, false, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 67,
-                            columnNumber: 13
+                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8",
+                    children: team.map((member, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col items-center text-center group",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative w-48 h-48 mb-6 p-1.5 border-2 border-luxury-gold/20 rounded-full group-hover:border-luxury-gold transition-all duration-500 group-hover:shadow-lg",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative w-full h-full overflow-hidden rounded-full",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: member.image,
+                                            alt: member.name,
+                                            fill: true,
+                                            className: "object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/about.tsx",
+                                            lineNumber: 150,
+                                            columnNumber: 10
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/about.tsx",
+                                        lineNumber: 149,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/about.tsx",
+                                    lineNumber: 148,
+                                    columnNumber: 8
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-3",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl text-luxury-charcoal group-hover:text-luxury-gold transition-colors duration-300",
+                                            children: member.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/about.tsx",
+                                            lineNumber: 160,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-luxury-gold uppercase tracking-widest text-[9px] font-bold",
+                                            children: member.role
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/about.tsx",
+                                            lineNumber: 163,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-500 text-sm leading-relaxed max-w-55 mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500",
+                                            children: member.bio
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/about.tsx",
+                                            lineNumber: 166,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/sections/about.tsx",
+                                    lineNumber: 159,
+                                    columnNumber: 8
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "[project]/components/sections/about.tsx",
+                            lineNumber: 144,
+                            columnNumber: 7
                         }, this))
                 }, void 0, false, {
-                    fileName: "[project]/components/sections/menu.tsx",
-                    lineNumber: 65,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center mt-20",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "#",
-                        className: "inline-block border border-luxury-charcoal text-luxury-charcoal px-10 py-3 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-luxury-charcoal hover:text-white transition-all duration-300",
-                        children: "Descargar Menú Completo"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/menu.tsx",
-                        lineNumber: 80,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/sections/menu.tsx",
-                    lineNumber: 79,
-                    columnNumber: 9
+                    fileName: "[project]/components/sections/about.tsx",
+                    lineNumber: 142,
+                    columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/components/sections/menu.tsx",
-            lineNumber: 51,
-            columnNumber: 7
+            fileName: "[project]/components/sections/about.tsx",
+            lineNumber: 37,
+            columnNumber: 4
         }, this)
     }, void 0, false, {
-        fileName: "[project]/components/sections/menu.tsx",
-        lineNumber: 50,
+        fileName: "[project]/components/sections/about.tsx",
+        lineNumber: 33,
         columnNumber: 3
     }, this);
 }
+}),
+"[project]/components/sections/menu.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+const e = new Error("Could not parse module '[project]/components/sections/menu.tsx'\n\nUnterminated string constant");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/components/sections/gallery.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -704,7 +593,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Galería() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "galeria",
-        className: "gallery py-16 bg-gray-100 px-4",
+        className: "max-w-6xl mx-auto px-8",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-3xl font-bold text-center mb-8",
             children: "Galería de Imágenes"
@@ -732,7 +621,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Contact() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "reservar",
-        className: "contact py-16 px-4 max-w-2xl mx-auto",
+        className: "contact py-16 max-w-6xl mx-auto px-8 bg-luxury-ivory",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "text-3xl font-bold mb-4 text-center",

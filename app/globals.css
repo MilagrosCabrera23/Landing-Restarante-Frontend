@@ -13,6 +13,30 @@
   --background: #ffffff;
   --foreground: #000000;
 }
+@layer base {
+  /* Todos los títulos h1, h2, h3 usan font-serif */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-luxury-charcoal;
+  }
+
+  /* Todos los párrafos usan font-sans */
+  p {
+    @apply font-sans text-gray-600;
+  }
+
+  /* Títulos específicos por nivel */
+  h1 {
+    @apply text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
 
 body {
   background-color: var(--background);
