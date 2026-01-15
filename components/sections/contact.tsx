@@ -1,7 +1,7 @@
 export default function Contact() {
 	return (
 		<section id="reservar" className="contact py-16 max-w-6xl mx-auto px-8 bg-luxury-ivory">
-			<h2 className="text-3xl font-bold mb-4 text-center">Reserva tu mesa</h2>
+			<h2 className="text-4xl text-luxury-gold text-center font-semibold">Reserva tu mesa</h2>
 			<form className="flex flex-col gap-4 bg-white p-6 rounded shadow">
 				<input type="text" placeholder="Nombre" className="border p-2 rounded" required />
 				<input type="email" placeholder="Correo electrónico" className="border p-2 rounded" required />

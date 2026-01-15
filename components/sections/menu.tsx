@@ -1,44 +1,5 @@
 import { CardMenuProps } from "../ui/cardMenu";
-
-const menuItems = [
-  {
-    id: 1,
-    titulo: "Ojo de Bife Abrasado",
-	imageSrc: "/plato-carne.jpg",
-    ingredientes: ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
-  },
-  {
-    id: 2,
-    titulo: "Trucha Patagónica",
-    imageSrc: "/plato-trucha.jpg",
-    ingredientes: ["Trucha fresca con limón sutil", "alcaparras y eneldo aromático", "crema de hinojo suave", "aceite de oliva extra virgen"]
-  },
-  {
-	id: 3,
-	titulo: "Risotto de Hongos Silvestres",
-	imageSrc: "/plato-rissoto.jpg",
-	ingredientes: ["Arroz arborio cremoso", "con hongos silvestres salteados", "Parmesano reggiano rallado", "Reducción de vino blanco"]
-  },
-{
-	id: 4,
-	titulo: "Ensalada Gourmet",
-	imageSrc: "/plato-ensalada.jpg",
-	ingredientes: ["Mix de lechugas frescas", "tomate cherry y pepino crocante", "queso feta griego y aceitunas", "vinagreta balsámica artesanal"]
-  },
-  {
-	id:5,
-	titulo: "Lasaña Vegetariana",
-	imageSrc: "/plato-lasaña.jpg",
-  ingredientes: ["Pasta fresca artesanal", "berenjena, calabacín y espinaca", "ricota cremosa italiana", "salsa de tomate casera y mozzarella"]
-  },
-  {
-	id:6,
-	titulo: "Pastel de Cordero Patagónico",
-	imageSrc: "/plato-cordero.jpg",
-	ingredientes: ["Cordero patagónico braseado", "puré de papas con manteca", "vegetales de estación asados", "reducción de vino tinto"]
-  }
-];
-
+import menuItems from "../../data/menu.json";
 
 export default function Menu() {
 	return (

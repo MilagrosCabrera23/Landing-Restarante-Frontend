@@ -1,0 +1,55 @@
+[
+    { "src": "/galeria1.jpg", 
+    "alt": "Plato Gourmet 1"
+    }, 
+    { "src": "/galeria2.jpg", 
+      "alt": "Nuestro Salón"
+    },
+    { "src": "/galeria3.jpg", 
+      "alt": "Chef en acción"
+    },
+    { "src": "/galeria4.jpg",
+      "alt": "Cava de vinos"
+    }, 
+    { "src": "/galeria5.jpg",
+      "alt": "Detalle de mesa"
+    },
+    { "src": "/galeria6.jpg", 
+      "alt": "Postre de autor" 
+    },
+    {
+    "src": "/galeria7.jpg",
+    "alt": "Vista nocturna del restaurante"
+    },
+    {
+    "src": "/galeria8.jpg",
+    "alt": "Brindis con champagne"
+    },
+    { "src": "W/galeria9.jpg",
+      "alt": "Entrada elegante"
+    },
+    {
+        "src": "/galeria10.jpg",
+        "alt": "Chef preparando plato"
+    },
+    {
+        "src": "/galeria11.jpg",
+        "alt": "Ambiente acogedor"
+    },
+    {
+        "src": "/galeria12.jpg",
+        "alt": "Selección de vinos"
+    },
+    {
+        "src": "/galeria13.jpg",
+        "alt": "Cocina abierta"
+    },
+    {
+        "src": "/galeria14.jpg",
+        "alt": "Equipo de chefs"
+    },
+    {
+        "src": "/galeria15.jpg",
+        "alt": "Cócteles exclusivos"
+    }
+]

@@ -49,7 +49,7 @@ function Hero() {
                 className: "relative z-10 text-center px-6 max-w-4xl mx-auto",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block font-bold",
+                        className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block font-semibold",
                         children: "Desde el corazón de Mendoza"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/hero.tsx",
@@ -57,7 +57,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-5xl md:text-7xl text-white mb-6 leading-[1.1]",
+                        className: "text-5xl md:text-7xl text-white mb-6 leading-[1.1] font-extrabold",
                         children: [
                             "El Arte de la ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -66,7 +66,7 @@ function Hero() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-light",
+                                className: "font-extrabold",
                                 children: "Alta Cocina"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/hero.tsx",
@@ -80,7 +80,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-base md:text-lg text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed",
+                        className: "font-light md:text-lg text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed",
                         children: "Descubra una sinfonía de sabores diseñados para cautivar los sentidos en un ambiente de distinción única."
                     }, void 0, false, {
                         fileName: "[project]/components/sections/hero.tsx",
@@ -141,32 +141,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-const team = [
-    {
-        name: 'Marco De la Vega',
-        role: 'Chef Ejecutivo',
-        bio: 'Especialista en cocina de vanguardia con raíces mendocinas.',
-        image: '/CHEF.jpg'
-    },
-    {
-        name: 'Lucía Sanchez',
-        role: 'Sommelier',
-        bio: 'Curadora de nuestra cava, experta en maridajes de altura.',
-        image: '/chica1.jpg'
-    },
-    {
-        name: 'Andrés Silva',
-        role: 'Jefe de Salón',
-        bio: 'Dedicado a que cada visita sea una experiencia impecable.',
-        image: '/chico2.jpg'
-    },
-    {
-        name: 'Elena Martínez',
-        role: 'Pastelera',
-        bio: 'Transforma ingredientes locales en arte dulce de autor.',
-        image: '/chica2.jpg'
-    }
-];
 function TeamSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "about",
@@ -188,7 +162,7 @@ function TeamSection() {
                                             children: "Nuestra Esencia"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 14,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -197,7 +171,7 @@ function TeamSection() {
                                                 "Tradición que ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 18,
                                                     columnNumber: 23
                                                 }, this),
                                                 ' ',
@@ -206,19 +180,19 @@ function TeamSection() {
                                                     children: "Innova"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 19,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 17,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 13,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -229,7 +203,7 @@ function TeamSection() {
                                             children: "En el corazón de Mendoza, Restaurante Gourmet nace como un tributo a la alta cocina de autor en abril del año 2009, fusionando la riqueza de las tradiciones locales con técnicas de vanguardia."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 24,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -237,7 +211,7 @@ function TeamSection() {
                                             children: "Nuestros valores se fundamentan en el respeto absoluto por la materia prima y la búsqueda constante de la excelencia."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 30,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -245,19 +219,19 @@ function TeamSection() {
                                             children: "Cada plato es una obra maestra que refleja nuestra pasión por la gastronomía y nuestro compromiso con la innovación culinaria."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 61,
+                                            lineNumber: 34,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 23,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 39,
+                            lineNumber: 12,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -270,12 +244,12 @@ function TeamSection() {
                                         children: "Visítenos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 43,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 42,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -291,14 +265,14 @@ function TeamSection() {
                                                             className: "w-8 h-px bg-luxury-gold"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/about.tsx",
-                                                            lineNumber: 78,
+                                                            lineNumber: 51,
                                                             columnNumber: 10
                                                         }, this),
                                                         "Ubicación"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 50,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -310,19 +284,19 @@ function TeamSection() {
                                                             children: "Mendoza, Argentina"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/about.tsx",
-                                                            lineNumber: 83,
+                                                            lineNumber: 56,
                                                             columnNumber: 10
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 54,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 49,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -334,14 +308,14 @@ function TeamSection() {
                                                             className: "w-14 h-px bg-luxury-gold"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/about.tsx",
-                                                            lineNumber: 91,
+                                                            lineNumber: 64,
                                                             columnNumber: 10
                                                         }, this),
                                                         "Horarios"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 63,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -354,7 +328,7 @@ function TeamSection() {
                                                                 children: "Martes - Domingo"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/sections/about.tsx",
-                                                                lineNumber: 96,
+                                                                lineNumber: 69,
                                                                 columnNumber: 11
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -362,30 +336,30 @@ function TeamSection() {
                                                                 children: "12:30 PM - 02:00 AM"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/sections/about.tsx",
-                                                                lineNumber: 97,
+                                                                lineNumber: 70,
                                                                 columnNumber: 11
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/sections/about.tsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 68,
                                                         columnNumber: 10
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 67,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 62,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 48,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -400,7 +374,7 @@ function TeamSection() {
                                                 children: "Cómo llegar"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/about.tsx",
-                                                lineNumber: 112,
+                                                lineNumber: 85,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -416,35 +390,35 @@ function TeamSection() {
                                                     d: "M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/about.tsx",
-                                                    lineNumber: 121,
+                                                    lineNumber: 94,
                                                     columnNumber: 10
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/about.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 86,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 79,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 78,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 68,
+                            lineNumber: 41,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/about.tsx",
-                    lineNumber: 38,
+                    lineNumber: 11,
                     columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -455,7 +429,7 @@ function TeamSection() {
                             children: "El Alma de Restaurante Gourmet"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 133,
+                            lineNumber: 106,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -467,26 +441,26 @@ function TeamSection() {
                                     children: "Equipo"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 110,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 136,
+                            lineNumber: 109,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-16 h-px bg-luxury-gold mx-auto mt-4"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 139,
+                            lineNumber: 112,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/about.tsx",
-                    lineNumber: 132,
+                    lineNumber: 105,
                     columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -505,17 +479,17 @@ function TeamSection() {
                                             className: "object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 123,
                                             columnNumber: 10
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/about.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 122,
                                         columnNumber: 9
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 121,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -526,7 +500,7 @@ function TeamSection() {
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 133,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -534,7 +508,7 @@ function TeamSection() {
                                             children: member.role
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 163,
+                                            lineNumber: 136,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -542,35 +516,35 @@ function TeamSection() {
                                             children: member.bio
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/about.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 139,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/about.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 132,
                                     columnNumber: 8
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/components/sections/about.tsx",
-                            lineNumber: 144,
+                            lineNumber: 117,
                             columnNumber: 7
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/about.tsx",
-                    lineNumber: 142,
+                    lineNumber: 115,
                     columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/about.tsx",
-            lineNumber: 37,
+            lineNumber: 10,
             columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/about.tsx",
-        lineNumber: 33,
+        lineNumber: 6,
         columnNumber: 3
     }, this);
 }
@@ -647,189 +621,36 @@ const CardMenuProps = ({ imageSrc, titulo, ingredientes, id })=>{
     }, ("TURBOPACK compile-time value", void 0));
 };
 }),
-"[project]/components/sections/menu.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/components/sections/menu.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>Menu
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$cardMenu$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/cardMenu.tsx [app-rsc] (ecmascript)");
-;
-;
-const menuItems = [
-    {
-        id: 1,
-        titulo: "Ojo de Bife Abrasado",
-        imageSrc: "/plato-carne.jpg",
-        ingredientes: [
-            "Ojo de bife premium con sal marina",
-            "romero fresco y ajo confitado",
-            "papa andina al manteca",
-            "un toque de pimienta negra"
-        ]
-    },
-    {
-        id: 2,
-        titulo: "Trucha Patagónica",
-        imageSrc: "/plato-trucha.jpg",
-        ingredientes: [
-            "Trucha fresca con limón sutil",
-            "alcaparras y eneldo aromático",
-            "crema de hinojo suave",
-            "aceite de oliva extra virgen"
-        ]
-    },
-    {
-        id: 3,
-        titulo: "Risotto de Hongos Silvestres",
-        imageSrc: "/plato-rissoto.jpg",
-        ingredientes: [
-            "Arroz arborio cremoso",
-            "con hongos silvestres salteados",
-            "Parmesano reggiano rallado",
-            "Reducción de vino blanco"
-        ]
-    },
-    {
-        id: 4,
-        titulo: "Ensalada Gourmet",
-        imageSrc: "/plato-ensalada.jpg",
-        ingredientes: [
-            "Mix de lechugas frescas",
-            "tomate cherry y pepino crocante",
-            "queso feta griego y aceitunas",
-            "vinagreta balsámica artesanal"
-        ]
-    },
-    {
-        id: 5,
-        titulo: "Lasaña Vegetariana",
-        imageSrc: "/plato-lasaña.jpg",
-        ingredientes: [
-            "Pasta fresca artesanal",
-            "berenjena, calabacín y espinaca",
-            "ricota cremosa italiana",
-            "salsa de tomate casera y mozzarella"
-        ]
-    },
-    {
-        id: 6,
-        titulo: "Pastel de Cordero Patagónico",
-        imageSrc: "/plato-cordero.jpg",
-        ingredientes: [
-            "Cordero patagónico braseado",
-            "puré de papas con manteca",
-            "vegetales de estación asados",
-            "reducción de vino tinto"
-        ]
-    }
-];
-function Menu() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        id: "menu",
-        className: "w-full py-2 max-w-6xl mx-auto px-4  bg-luxury-ivory",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center m-2",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-luxury-gold uppercase tracking-[0.4em] text-[10px] font-bold",
-                            children: "Experiencia Culinaria"
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 48,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl md:text-3xl text-luxury-charcoal",
-                            children: [
-                                "Nuestro ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "italic font-light",
-                                    children: "Menú"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/menu.tsx",
-                                    lineNumber: 52,
-                                    columnNumber: 21
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 51,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-12 h-px bg-luxury-gold mx-auto mt-4"
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 54,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/sections/menu.tsx",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6",
-                    children: menuItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$cardMenu$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardMenuProps"], {
-                            id: item.id,
-                            titulo: item.titulo,
-                            imageSrc: item.imageSrc,
-                            ingredientes: item.ingredientes
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/menu.tsx",
-                            lineNumber: 59,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/components/sections/menu.tsx",
-                    lineNumber: 57,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/sections/menu.tsx",
-            lineNumber: 46,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/components/sections/menu.tsx",
-        lineNumber: 45,
-        columnNumber: 3
-    }, this);
-}
+const e = new Error("Could not parse module '[project]/components/sections/menu.tsx'\n\nExpected 'from', got 'export'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/components/sections/gallery.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
     "default",
-    ()=>Galería
+    ()=>Gallery
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
-function Galería() {
+function Gallery() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "galeria",
-        className: "max-w-6xl mx-auto px-8",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-            className: "text-3xl font-bold text-center mb-8",
-            children: "Galería de Imágenes"
+        className: "w-full py-24 bg-white",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-6xl mx-auto px-8"
         }, void 0, false, {
             fileName: "[project]/components/sections/gallery.tsx",
-            lineNumber: 4,
-            columnNumber: 13
+            lineNumber: 6,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/gallery.tsx",
-        lineNumber: 3,
-        columnNumber: 9
+        lineNumber: 5,
+        columnNumber: 5
     }, this);
 }
 }),
@@ -848,7 +669,7 @@ function Contact() {
         className: "contact py-16 max-w-6xl mx-auto px-8 bg-luxury-ivory",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-3xl font-bold mb-4 text-center",
+                className: "text-4xl text-luxury-gold text-center font-semibold",
                 children: "Reserva tu mesa"
             }, void 0, false, {
                 fileName: "[project]/components/sections/contact.tsx",

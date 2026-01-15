@@ -1,398 +1,2570 @@
-[00:00:23.788] Server  LOG     ✓ Ready in 18.9s
-[00:20:30.442] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:20:30.486] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:20:32.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:34.830] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:34.839] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:35.001] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:35.128] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:35.232] Browser WARN    Image with src "/plato-carne.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:35.338] Browser WARN    Image with src "/plato-trucha.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:35.531] Browser WARN    Image with src "/plato-rissoto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:45.522] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:20:45.647] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:20:46.397] Server  LOG     ✓ Compiled in 32ms
-[00:20:47.480] Browser WARN    Image with src "/plato-ensalada.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:47.779] Browser WARN    Image with src "/plato-cordero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:48.246] Browser WARN    Image with src "/plato-lasaña.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:24:34.980] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:24:35.091] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:25:37.673] Server  LOG     ✓ Compiled in 493ms
-[00:25:38.042] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:25:38.192] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:25:46.011] Browser ERROR   ./components/sections/about.tsx:173:3
+[00:00:32.857] Server  LOG     ✓ Ready in 28.6s
+[00:00:35.996] Server  LOG     ○ Compiling / ...
+[00:00:45.533] Server  ERROR   ⨯ ./components/sections/gallery.tsx:72:25
 Parsing ecmascript source code failed
-  171 | 				</div>
-  172 | 			</div>
-> 173 | 		</section>
-      | 		^
-  174 | 	);
-  175 | }
-  176 |
+  70 |                                 
+  71 |                             }
+> 72 |                         )
+     |                         ^
+  73 |                     }
+  74 |         {
+  75 |             imagesGaleria.map((image, index) => (
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+
+[00:00:49.604] Browser ERROR   uncaughtError: Error: ./components/sections/gallery.tsx:72:25
+Parsing ecmascript source code failed
+  70 |                                 
+  71 |                             }
+> 72 |                         )
+     |                         ^
+  73 |                     }
+  74 |         {
+  75 |             imagesGaleria.map((image, index) => (
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+
+[00:00:50.255] Browser ERROR   ./components/sections/gallery.tsx:72:25
+Parsing ecmascript source code failed
+  70 |                                 
+  71 |                             }
+> 72 |                         )
+     |                         ^
+  73 |                     }
+  74 |         {
+  75 |             imagesGaleria.map((image, index) => (
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:00:50.717] Browser ERROR   ./components/sections/gallery.tsx:72:25
+Parsing ecmascript source code failed
+  70 |                                 
+  71 |                             }
+> 72 |                         )
+     |                         ^
+  73 |                     }
+  74 |         {
+  75 |             imagesGaleria.map((image, index) => (
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:01:24.909] Server  LOG     ✓ Compiled in 1408ms
+[00:01:25.730] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:01:25.801] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:01:28.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:29.620] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:29.620] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:29.620] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:29.620] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:29.620] Browser WARN    Image with src "/plato-carne.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:29.620] Browser WARN    Image with src "/plato-trucha.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:29.620] Browser WARN    Image with src "/plato-rissoto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:30.384] Browser WARN    Image with src "/plato-lasaña.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:30.691] Browser WARN    Image with src "/plato-ensalada.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:30.691] Browser WARN    Image with src "/plato-cordero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:31.734] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria/chef-cocinando.jpg" "received" null
+[00:01:31.737] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria/plato1.jpg" "received" null
+[00:01:31.744] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria/salon.jpg" "received" null
+[00:01:31.908] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria/vino.jpg" "received" null
+[00:01:33.102] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria/postre.jpg" "received" null
+[00:01:33.108] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria/detalle.jpg" "received" null
+[00:01:48.970] Server  LOG     ✓ Compiled in 206ms
+[00:01:49.304] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:01:49.372] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:01:50.322] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeriaplato1.jpg" "received" null
+[00:01:53.585] Server  LOG     ✓ Compiled in 259ms
+[00:01:53.933] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:01:54.095] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:01:56.502] Browser WARN    Image with src "/galeria1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:03.375] Server  LOG     ✓ Compiled in 162ms
+[00:02:03.682] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:03.779] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:06.612] Browser WARN    Image with src "/galeria2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:10.357] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:10.424] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:10.769] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/galeria.jpg" "received" null
+[00:02:12.119] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:12.171] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:16.290] Server  LOG     ✓ Compiled in 261ms
+[00:02:16.942] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:17.035] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:19.750] Browser WARN    Image with src "/galeria3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:22.754] Browser WARN    Image with src "/galeria6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:24.639] Browser WARN    Image with src "/galeria5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:28.515] Browser WARN    Image with src "/galeria4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:48.109] Server  LOG     ✓ Compiled in 191ms
+[00:02:48.451] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:48.559] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:50.627] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:50.681] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:57.433] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:02:57.489] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:02.787] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:02.916] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:03.513] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:03:03.513] Browser ERROR   Image is missing required "src" property: <img>
+[00:03:03.513] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:03.513] Browser ERROR   Image is missing required "src" property: <img>
+[00:03:03.513] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:05.156] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:05.462] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:05.512] Server  LOG     ✓ Compiled in 263ms
+[00:03:05.937] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:05.980] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:06.753] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:07.475] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:07.523] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:07.648] Server  LOG     ✓ Compiled in 2ms
+[00:03:14.402] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:14.447] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:20.347] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:20.395] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:23.137] Server  LOG     ✓ Compiled in 230ms
+[00:03:23.885] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:24.189] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:24.877] Server  LOG     ✓ Compiled in 283ms
+[00:03:24.962] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:03:24.962] Browser ERROR   Image is missing required "src" property: <img>
+[00:03:24.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:24.962] Browser ERROR   Image is missing required "src" property: <img>
+[00:03:24.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:26.193] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:26.519] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:27.410] Browser ERROR   ./components/sections/gallery.tsx:21:3
+Parsing ecmascript source code failed
+  19 |   },
+  20 |   { src: '/galeria9.jpg', alt: 'Entrada elegante', className: 'md:col-span-2 md:row-span-1' },
+> 21 |   }
+     |   ^
+  22 | ];
+  23 |
+  24 | export default function Gallery() {
 
 Expression expected
 
 Import trace:
   Server Component:
-    ./components/sections/about.tsx
+    ./components/sections/gallery.tsx
     ./app/page.tsx
-[00:25:46.012] Browser ERROR   ./components/sections/about.tsx:173:4
+[00:03:27.880] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:32.706] Browser WARN    Image with src "/galeria8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:36.674] Server  LOG     ✓ Compiled in 87ms
+[00:03:37.058] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:03:37.290] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:40.698] Browser WARN    Image with src "/galeria9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:06.076] Server  LOG     ✓ Compiled in 131ms
+[00:04:06.627] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:04:06.904] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:08.010] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:08.010] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:08.010] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:04:08.010] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:08.010] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:04:08.045] Server  LOG     ✓ Compiled in 225ms
+[00:04:08.562] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:04:08.902] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:09.306] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:04:10.061] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:04:10.263] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:11.189] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:04:11.310] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:25.333] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:04:25.398] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:26.201] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:04:26.201] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:26.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:04:26.203] Browser ERROR   Image is missing required "src" property: <img>
+[00:04:26.203] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:04:27.454] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:04:27.581] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:37.371] Browser WARN    Image with src "/galeria10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:38.380] Browser WARN    Image with src "/galeria12.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:38.380] Browser WARN    Image with src "/galeria11.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:24.562] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:08:24.685] Server  ERROR   ⨯ ReferenceError: team is not defined
+[00:08:24.752] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:08:25.094] Browser ERROR   uncaughtError: ReferenceError: team is not defined
+[00:09:55.601] Server  LOG     ✓ Compiled in 135ms
+[00:09:55.843] Server  ERROR   ⨯ ReferenceError: team is not defined
+[00:09:55.848] Server  ERROR   ⨯ ReferenceError: menuItems is not defined
+[00:09:55.853] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:58.470] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:58.706] Server  LOG     ✓ Compiled in 162ms
+[00:09:59.168] Server  ERROR   ⨯ ReferenceError: team is not defined
+[00:09:59.173] Server  ERROR   ⨯ ReferenceError: menuItems is not defined
+[00:09:59.181] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:59.950] Browser ERROR   uncaughtError: ReferenceError: team is not defined
+[00:10:01.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:01.673] Browser ERROR   uncaughtError: ReferenceError: team is not defined
+[00:14:39.248] Server  LOG     ✓ Compiled in 241ms
+[00:14:39.737] Server  ERROR   ⨯ ReferenceError: team is not defined
+[00:14:39.740] Server  ERROR   ⨯ ReferenceError: menuItems is not defined
+[00:14:39.746] Server  ERROR   ⨯ ReferenceError: images is not defined
+[00:14:39.751] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:14:42.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.050] Browser ERROR   uncaughtError: ReferenceError: team is not defined
+[00:14:52.796] Browser ERROR   ./components/sections/gallery.tsx:10:1
 Parsing ecmascript source code failed
-  171 | 				</div>
-  172 | 			</div>
-> 173 | 		</section>
-      | 		 ^^^^^^^^^
-  174 | 	);
-  175 | }
-  176 |
+   8 |     </section>
+   9 |   );
+> 10 | }
+     | ^
+  11 |
 
-Unterminated regexp literal
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
 
 Import trace:
   Server Component:
-    ./components/sections/about.tsx
+    ./components/sections/gallery.tsx
     ./app/page.tsx
-[00:25:46.528] Server  LOG     ✓ Compiled in 79ms
-[00:25:46.667] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:25:48.934] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:25:49.069] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:26:14.656] Server  LOG     ✓ Compiled in 445ms
-[00:26:15.278] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:26:15.350] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:26:39.104] Browser ERROR   ./components/sections/about.tsx:173:3
+[00:14:56.863] Browser ERROR   ./components/sections/gallery.tsx:8:5
 Parsing ecmascript source code failed
-  171 | 				</div>
-  172 | 			</div>
-> 173 | 		</section>
-      | 		^
-  174 | 	);
-  175 | }
-  176 |
+   6 |       <div className="max-w-6xl mx-auto px-8">
+   7 |         </di
+>  8 |     </section>
+     |     ^
+   9 |   );
+  10 | }
+  11 |
 
 Expression expected
 
 Import trace:
   Server Component:
-    ./components/sections/about.tsx
+    ./components/sections/gallery.tsx
     ./app/page.tsx
-[00:26:39.104] Browser ERROR   ./components/sections/about.tsx:173:4
+[00:14:56.863] Browser ERROR   ./components/sections/gallery.tsx:8:6
 Parsing ecmascript source code failed
-  171 | 				</div>
-  172 | 			</div>
-> 173 | 		</section>
-      | 		 ^^^^^^^^^
-  174 | 	);
-  175 | }
-  176 |
+   6 |       <div className="max-w-6xl mx-auto px-8">
+   7 |         </di
+>  8 |     </section>
+     |      ^^^^^^^^^
+   9 |   );
+  10 | }
+  11 |
 
 Unterminated regexp literal
 
 Import trace:
   Server Component:
-    ./components/sections/about.tsx
+    ./components/sections/gallery.tsx
     ./app/page.tsx
-[00:26:49.595] Server  LOG     ✓ Compiled in 66ms
-[00:26:49.959] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:26:50.079] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:26:54.335] Server  LOG     ✓ Compiled in 174ms
-[00:26:55.107] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:26:55.164] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:28:17.184] Server  LOG     ✓ Compiled in 114ms
-[00:28:18.099] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:28:18.330] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:28:38.513] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:28:38.554] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:28:50.565] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:28:50.673] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:28:52.729] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:28:52.825] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:28:56.230] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:28:56.295] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:31:04.309] Server  LOG     ✓ Compiled in 5.2s
-[00:31:04.412] Browser ERROR   ./components/sections/menu.tsx:102:30
+[00:14:59.080] Server  ERROR   ⨯ ReferenceError: team is not defined
+[00:14:59.083] Server  ERROR   ⨯ ReferenceError: menuItems is not defined
+[00:14:59.094] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:15:01.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:01.537] Browser ERROR   uncaughtError: ReferenceError: team is not defined
+[00:17:32.262] Browser ERROR   ./components/sections/menu.tsx:4:1
 Parsing ecmascript source code failed
-  100 | 					<h2 className="text-5xl md:text-5xl text-luxury-charcoal mt-4 font-light">
-  101 | 						Nuestro{" "}
-> 102 | 						<span className="italic"
-      | 						                       ^
-  103 |
+  2 | import 
+  3 |
+> 4 | export default function Menu() {
+    | ^^^^^^
+  5 | 	return (
+  6 | 		<section id="menu" className="w-full py-2 max-w-6xl mx-auto px-4  bg-luxury-ivory">
+  7 |       <div className="">
 
-Unterminated string constant
+Expected 'from', got 'export'
 
 Import trace:
   Server Component:
     ./components/sections/menu.tsx
     ./app/page.tsx
-[00:31:22.141] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:31:43.658] Browser ERROR   ./components/sections/menu.tsx:102:30
-Parsing ecmascript source code failed
-  100 | 					<h2 className="text-5xl md:text-5xl text-luxury-charcoal mt-4 font-light">
-  101 | 						Nuestro{" "}
-> 102 | 						<span className="italic"
-      | 						                       ^
-  103 |
+[00:17:35.334] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
 
-Unterminated string constant
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:17:44.223] Browser ERROR   ./components/sections/menu.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import 
+  3 |
+> 4 | export default function Menu() {
+    | ^^^^^^
+  5 | 	return (
+  6 | 		<section id="menu" className="w-full py-2 max-w-6xl mx-auto px-4  bg-luxury-ivory">
+  7 |       <div className="">
+
+Expected 'from', got 'export'
 
 Import trace:
   Server Component:
     ./components/sections/menu.tsx
     ./app/page.tsx
-[00:31:44.617] Server  LOG     ✓ Compiled in 54ms
-[00:31:44.747] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:31:44.781] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:31:58.087] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:31:59.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:00.372] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.372] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.372] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.373] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.373] Browser WARN    Image with src "/plato-carne.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.373] Browser WARN    Image with src "/plato-trucha.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.373] Browser WARN    Image with src "/plato-rissoto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.373] Browser WARN    Image with src "/plato-ensalada.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.522] Browser WARN    Image with src "/plato-lasaña.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:00.659] Browser WARN    Image with src "/plato-cordero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:22.139] Server  LOG     ✓ Compiled in 239ms
-[00:32:23.049] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:23.140] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:32:23.674] Server  LOG     ✓ Compiled in 370ms
-[00:32:24.059] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:24.246] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:32:28.680] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:28.798] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:32:29.010] Server  LOG     ✓ Compiled in 5ms
-[00:32:34.245] Server  LOG     ✓ Compiled in 136ms
-[00:32:34.699] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:34.746] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:32:39.798] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:39.848] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:32:48.229] Server  LOG     ✓ Compiled in 207ms
-[00:32:48.681] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:48.726] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:32:54.760] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:32:54.810] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:33:38.153] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:33:38.269] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:35:17.941] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:35:18.040] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:35:32.098] Server  LOG     ✓ Compiled in 219ms
-[00:35:32.642] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:35:32.819] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:35:57.674] Server  LOG     ✓ Compiled in 87ms
-[00:35:58.066] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:35:58.124] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:35:59.602] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:35:59.637] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:36:04.225] Server  LOG     ✓ Compiled in 193ms
-[00:36:04.990] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:36:05.330] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:36:30.307] Server  LOG     ✓ Compiled in 133ms
-[00:36:30.515] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:36:30.585] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:36:32.575] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:36:32.708] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:36:44.906] Server  LOG     ✓ Compiled in 159ms
-[00:36:45.089] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:36:45.200] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:36:55.042] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:36:55.122] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:37:05.570] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:37:07.004] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:07.973] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/plato-carne.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/plato-trucha.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/plato-rissoto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/plato-ensalada.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:07.973] Browser WARN    Image with src "/plato-lasaña.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:08.095] Browser WARN    Image with src "/plato-cordero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:25.478] Server  LOG     ✓ Compiled in 97ms
-[00:37:25.745] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:37:25.806] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:37:32.395] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:37:33.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:34.726] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/plato-carne.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/plato-trucha.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/plato-rissoto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/plato-ensalada.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.726] Browser WARN    Image with src "/plato-lasaña.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:34.829] Browser WARN    Image with src "/plato-cordero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:56.699] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:37:56.740] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:38:06.085] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:38:07.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:08.508] Browser WARN    Image with src "/CHEF.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.508] Browser WARN    Image with src "/chica1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.508] Browser WARN    Image with src "/chico2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/chica2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/plato-carne.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/plato-trucha.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/plato-rissoto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/plato-ensalada.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/plato-lasaña.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:08.509] Browser WARN    Image with src "/plato-cordero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:13.630] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:38:13.661] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:38:31.047] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:38:31.128] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:38:45.675] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:38:45.806] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:39:35.129] Server  LOG     ✓ Compiled in 133ms
-[00:39:35.392] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:39:35.501] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:39:39.970] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:39:40.076] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:39:42.423] Server  LOG     ✓ Compiled in 82ms
-[00:39:42.746] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:39:42.817] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:39:47.039] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:39:47.102] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:39:47.440] Server  LOG     ✓ Compiled in 4ms
-[00:39:51.823] Server  LOG     ✓ Compiled in 92ms
-[00:39:52.103] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:39:52.152] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:06.017] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:06.058] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:11.292] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:11.377] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:17.879] Server  LOG     ✓ Compiled in 366ms
-[00:40:18.298] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:18.383] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:20.790] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:20.827] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:41.318] Server  LOG     ✓ Compiled in 113ms
-[00:40:41.938] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:42.189] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:44.142] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:44.179] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:48.651] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:48.714] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:40:57.790] Server  LOG     ✓ Compiled in 140ms
-[00:40:58.518] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:40:58.616] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:41:04.405] Server  LOG     ✓ Compiled in 250ms
-[00:41:04.873] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:04.967] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:41:11.283] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:11.509] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:41:14.694] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:14.827] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:41:19.167] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:19.206] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:41:29.620] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:29.756] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:41:43.085] Server  LOG     ✓ Compiled in 136ms
-[00:41:43.383] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:43.443] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:16.468] Server  LOG     ✓ Compiled in 155ms
-[00:42:17.329] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:17.358] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:20.479] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:20.544] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:37.997] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:38.085] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:38.786] Server  LOG     ✓ Compiled in 90ms
-[00:42:39.011] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:39.044] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:40.682] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:40.844] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:42.651] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:42.778] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:47.202] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:47.246] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:48.853] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:48.944] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:42:53.802] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:54.312] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:43:18.836] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:43:19.061] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:43:25.473] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:43:25.557] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:43:30.756] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:43:30.859] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:43:42.824] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:43:42.889] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:43:49.191] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:43:49.236] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:44:00.654] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:44:01.183] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:44.596] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:45:58.574] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:45:58.620] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:46:37.498] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:46:37.575] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:46:52.086] Server  LOG     ✓ Compiled in 170ms
-[00:46:52.394] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:46:52.511] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:15.511] Server  LOG     ✓ Compiled in 221ms
-[00:47:15.993] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:47:16.159] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:36.489] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:47:36.604] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:44.899] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:47:45.034] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:47:52.029] Server  LOG     ✓ Compiled in 80ms
-[00:47:52.587] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:47:52.668] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:01.125] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:01.209] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:03.280] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:03.328] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:06.161] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:06.370] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:08.634] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:08.673] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:15.838] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:15.874] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:48:46.686] Server  LOG     ✓ Compiled in 189ms
-[00:48:47.083] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:47.152] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:01.841] Browser ERROR   ./components/sections/menu.tsx:32:32
-Parsing ecmascript source code failed
-  30 | 	titulo: "Lasaña Vegetariana",
-  31 | 	imageSrc: "/plato-lasaña.jpg",
-> 32 | 	ingredientes:     ingredientes: ["Pasta fresca artesanal", "Berenjena, calabacín y espinaca", "Ricota cremosa italiana", "Salsa de tomate casera y mozzarella"]
-     | 	                              ^
-  33 |   },
-  34 |   {
-  35 | 	id:6,
+[00:17:44.223] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
 
-Expected ',', got ':'
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
 
 Import trace:
   Server Component:
+    ./data/menu.json
     ./components/sections/menu.tsx
     ./app/page.tsx
-[00:49:21.061] Server  LOG     ✓ Compiled in 138ms
-[00:49:21.522] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:21.783] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:34.510] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:34.754] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:40.044] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:40.078] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:43.821] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:43.860] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:46.728] Server  LOG     ✓ Compiled in 96ms
-[00:49:47.084] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:47.190] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:54.366] Server  LOG     ✓ Compiled in 67ms
-[00:49:54.500] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:54.538] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:49:58.778] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:58.819] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:50:02.276] Server  LOG     ✓ Compiled in 119ms
-[00:50:02.470] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:50:02.509] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:50:08.679] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:50:08.724] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:50:11.213] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:50:11.461] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:50:38.286] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:50:38.510] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:18:02.734] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:18:21.578] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:18:59.515] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:09.296] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:12.072] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:18.480] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:24.955] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:28.635] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:37.298] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:44.576] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:47.352] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:48.351] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:54.675] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:19:58.535] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:05.751] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:14.744] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:17.921] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:23.372] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:26.856] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:29.867] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:30.998] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:34.168] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:35.801] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:39.429] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:43.928] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:47.649] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:51.072] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:20:53.970] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:03.547] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:06.985] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:08.917] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:14.300] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:15.865] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:22.134] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:24.524] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:27.222] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:40.758] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:49.570] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:21:55.477] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:04.501] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:06.000] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:11.091] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:15.470] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:19.637] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:21.808] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:28.363] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:30.297] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:34.571] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:36.241] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:39.168] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:42.519] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:46.679] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:52.854] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:55.713] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:22:56.785] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:01.952] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:03.749] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:10.450] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:11.952] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:13.527] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:23.348] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:26.882] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:30.262] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:33.015] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:23:34.776] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:02.389] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:03.717] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:07.255] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:35.966] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:39.626] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:41.278] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:43.925] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:47.445] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:24:49.430] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:25:26.677] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:25:34.353] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx

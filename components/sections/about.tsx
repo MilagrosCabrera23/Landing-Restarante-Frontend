@@ -1,32 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
-const team = [
-	{
-		name: 'Marco De la Vega',
-		role: 'Chef Ejecutivo',
-		bio: 'Especialista en cocina de vanguardia con raíces mendocinas.',
-		image: '/CHEF.jpg',
-	},
-	{
-		name: 'Lucía Sanchez',
-		role: 'Sommelier',
-		bio: 'Curadora de nuestra cava, experta en maridajes de altura.',
-		image: '/chica1.jpg',
-	},
-	{
-		name: 'Andrés Silva',
-		role: 'Jefe de Salón',
-		bio: 'Dedicado a que cada visita sea una experiencia impecable.',
-		image: '/chico2.jpg',
-	},
-	{
-		name: 'Elena Martínez',
-		role: 'Pastelera',
-		bio: 'Transforma ingredientes locales en arte dulce de autor.',
-		image: '/chica2.jpg',
-	},
-];
+import team from '@/data/about.json';
 
 export default function TeamSection() {
 	return (
