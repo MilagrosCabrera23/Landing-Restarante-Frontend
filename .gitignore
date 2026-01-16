@@ -1,159 +1,57 @@
 # Dependencies
-node_modules/odules/
+node_modules/
 .pnp
-.pnp.jss
+.pnp.js
 
 # Testing
+coverage/
 
+# Next.js
+.next/
+out/
+build/
+dist/
 
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pnpm-lock.yaml# Optional PNPM files.npm# Optional npm cache directory.stylelintcache.eslintcache.turbo/# Cache*.tsbuildinfo# Build artifacts*~*.sw[op].LSOverride.AppleDouble.DS_Store# OSThumbs.db.DS_Store*~*.swo*.swp.idea/.vscode/# IDE.env.production.local.env.test.local.env.development.local.env.local.env# Environment variables.pnpm-debug.log*yarn-error.log*yarn-debug.log*npm-debug.log**.log# Productiondist/build/out/.next/# Next.jscoverage/
-
-
-pnpm-lock.yaml
-# Optional PNPM files
-
-.npm
-# Optional npm cache directory
-
-.stylelintcache
-.eslintcache
-.turbo/
-
-pnpm-lock.yaml# Cache
-
-# Optional PNPM files
-
-*.tsbuildinfo
-
-.npm# Build artifacts
-
-# Optional npm cache directory
-
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 *~
-
-.stylelintcache*.sw[op]
-
-.eslintcache.LSOverride
-
-.turbo/.AppleDouble
-
-# Cache.DS_Store
+.DS_Store
+Thumbs.db
 
 # OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sw[op]
+*~
 
+# Build artifacts
 *.tsbuildinfo
 
-# Build artifactsThumbs.db
+# Cache
+.turbo/
+.eslintcache
+.stylelintcache
 
-.DS_Store
+# Optional npm cache directory
+.npm
 
-*~*~
-
-*.sw[op]*.swo
-
-.LSOverride*.swp
-
-.AppleDouble.idea/
-
-.DS_Store.vscode/
-
-# OS# IDE
-
-
-
-Thumbs.db.env.production.local
-
-.DS_Store.env.test.local
-
-*~.env.development.local
-
-*.swo.env.local
-
-*.swp.env
-
-.idea/# Environment variables
-
-.vscode/
-
-# IDE.pnpm-debug.log*
-
-yarn-error.log*
-
-.env.production.localyarn-debug.log*
-
-.env.test.localnpm-debug.log*
-
-.env.development.local*.log
-
-.env.local# Production
-
-.env
-
-# Environment variablesdist/
-
-build/
-
-.pnpm-debug.log*out/
-
-yarn-error.log*.next/
-
-yarn-debug.log*# Next.jscoverage/coverage/
-
-npm-debug.log*
-
-*.log# Next.js
-
-# Production.next/
-
-
-dist/
-build/out/
+# Optional PNPM files
+pnpm-lock.yaml
