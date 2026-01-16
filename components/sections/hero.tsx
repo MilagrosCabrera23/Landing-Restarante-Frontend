@@ -22,7 +22,7 @@ export default function Hero() {
           <span className="font-extrabold">Alta Cocina</span>
         </h1>
         
-        <p className="font-light md:text-lg text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed">
+        <p className="font-light md:text-lg text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed tracking-widest">
           Descubra una sinfonía de sabores diseñados para cautivar los sentidos en un ambiente de distinción única.
         </p>
 

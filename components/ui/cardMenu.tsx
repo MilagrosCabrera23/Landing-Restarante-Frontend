@@ -21,14 +21,14 @@ export const CardMenuProps = ({ imageSrc, titulo, ingredientes, id }: CardMenuPr
 
             <div className="space-y-3 px-2">
                 <div className="flex justify-center items-center">
-                    <h3 className="text-lg font-serif text-luxury-gold italic  group-hover: transition-colors duration-500">
+                    <h3 className="text-lg font-serif font-bold text-luxury-gold italic  group-hover: transition-colors duration-500">
                         {titulo}
                     </h3>
 
                 </div>
 
 
-                <p className="text-gray-600 text-balance  text-sm text-center">
+                <p className="text-gray-600 text-balance tracking-widest text-sm text-center">
                     {ingredientes.join(", ")}
                 </p>
             </div>

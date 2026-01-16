@@ -1,6 +1,6 @@
 export * from './menu';
 export * from './contact';
 export * from './api';
-export * from './ui';
+export * from './galeria';
 export * from './about';
 export * from './gallery';

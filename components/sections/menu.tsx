@@ -18,6 +18,7 @@ export default function Menu() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6">
           {menuItems.map((item) => (
             <CardMenuProps 
+              key={item.id}
               id={item.id}
               titulo={item.titulo} 
               imageSrc={item.imageSrc}

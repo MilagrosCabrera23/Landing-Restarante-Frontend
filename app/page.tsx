@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <About />
       <Menu />
-      <Galería />
       <Contact />
+       <Galería />
     </main>
   );
 }

@@ -15,13 +15,13 @@ export default function TeamSection() {
 							<span className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold">
 								Nuestra Esencia
 							</span>
-							<h2 className="text-4xl md:text-5xl text-luxury-charcoal leading-tight">
-								Tradición que <br />{' '}
+							<h2 className="text-4xl md:text-5xl text-luxury-charcoal leading-tight text-start">
+								Tradición que {' '}
 								<span className="italic">Innova</span>
 							</h2>
 						</div>
 
-						<div className="space-y-4 text-gray-600 leading-relaxed border-l-2 border-luxury-gold/20 pl-6 ">
+						<div className="space-y-4 text-gray-600 leading-relaxed tracking-widest  pl-6 ">
 							<p className="text-balance text-base font-light">
 								En el corazón de Mendoza, Restaurante Gourmet nace como un
 								tributo a la alta cocina de autor en abril del año 2009,
