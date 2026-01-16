@@ -1,6 +1,159 @@
-node_modules/
-.next/
-out/
-build/
-.env*
+# Dependencies
+node_modules/odules/
+.pnp
+.pnp.jss
+
+# Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pnpm-lock.yaml# Optional PNPM files.npm# Optional npm cache directory.stylelintcache.eslintcache.turbo/# Cache*.tsbuildinfo# Build artifacts*~*.sw[op].LSOverride.AppleDouble.DS_Store# OSThumbs.db.DS_Store*~*.swo*.swp.idea/.vscode/# IDE.env.production.local.env.test.local.env.development.local.env.local.env# Environment variables.pnpm-debug.log*yarn-error.log*yarn-debug.log*npm-debug.log**.log# Productiondist/build/out/.next/# Next.jscoverage/
+
+
+pnpm-lock.yaml
+# Optional PNPM files
+
+.npm
+# Optional npm cache directory
+
+.stylelintcache
+.eslintcache
+.turbo/
+
+pnpm-lock.yaml# Cache
+
+# Optional PNPM files
+
+*.tsbuildinfo
+
+.npm# Build artifacts
+
+# Optional npm cache directory
+
+*~
+
+.stylelintcache*.sw[op]
+
+.eslintcache.LSOverride
+
+.turbo/.AppleDouble
+
+# Cache.DS_Store
+
+# OS
+
+*.tsbuildinfo
+
+# Build artifactsThumbs.db
+
 .DS_Store
+
+*~*~
+
+*.sw[op]*.swo
+
+.LSOverride*.swp
+
+.AppleDouble.idea/
+
+.DS_Store.vscode/
+
+# OS# IDE
+
+
+
+Thumbs.db.env.production.local
+
+.DS_Store.env.test.local
+
+*~.env.development.local
+
+*.swo.env.local
+
+*.swp.env
+
+.idea/# Environment variables
+
+.vscode/
+
+# IDE.pnpm-debug.log*
+
+yarn-error.log*
+
+.env.production.localyarn-debug.log*
+
+.env.test.localnpm-debug.log*
+
+.env.development.local*.log
+
+.env.local# Production
+
+.env
+
+# Environment variablesdist/
+
+build/
+
+.pnpm-debug.log*out/
+
+yarn-error.log*.next/
+
+yarn-debug.log*# Next.jscoverage/coverage/
+
+npm-debug.log*
+
+*.log# Next.js
+
+# Production.next/
+
+
+dist/
+build/out/
