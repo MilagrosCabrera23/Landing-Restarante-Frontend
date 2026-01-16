@@ -2568,3 +2568,2496 @@ Import trace:
     ./data/menu.json
     ./components/sections/menu.tsx
     ./app/page.tsx
+[00:26:50.368] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+  2 | import 
+> 3 | export default function Gallery() {
+    | ^^^^^^
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+  6 |       <div className="max-w-6xl mx-auto px-8">
+
+Expected 'from', got 'export'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:26:50.368] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:00.614] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+  2 | import plato
+> 3 | export default function Gallery() {
+    | ^^^^^^
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+  6 |       <div className="max-w-6xl mx-auto px-8">
+
+Expected ',', got 'export'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:00.614] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:04.558] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+  2 | import platoMenu 
+> 3 | export default function Gallery() {
+    | ^^^^^^
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+  6 |       <div className="max-w-6xl mx-auto px-8">
+
+Expected ',', got 'export'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:04.558] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:08.904] Browser ERROR   ./components/sections/gallery.tsx:2:23
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+> 2 | import platoMenu from ..
+    |                       ^
+  3 | export default function Gallery() {
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+
+Unexpected token `.`. Expected a string literal
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:08.904] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:22.318] Browser ERROR   ./components/sections/gallery.tsx:2:23
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+> 2 | import platoMenu from "../../data/
+    |                       ^^^^^^^^^^^^
+  3 | export default function Gallery() {
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:22.318] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:27.614] Browser ERROR   ./components/sections/gallery.tsx:2:23
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+> 2 | import platoMenu from "../../data/gale
+    |                       ^^^^^^^^^^^^^^^^
+  3 | export default function Gallery() {
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:27.614] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:30.914] Browser ERROR   ./components/sections/gallery.tsx:2:23
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+> 2 | import platoMenu from "../../data/galeria.json
+    |                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | export default function Gallery() {
+  4 |   return (
+  5 |     <section id="galeria" className="w-full py-24 bg-white">
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:30.914] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:32.570] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:41.683] Browser ERROR   ./components/sections/gallery.tsx:2:14
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+> 2 | import  from "../../data/galeria.json";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Gallery() {
+  5 |   return (
+
+Expected ',', got 'string literal ("../../data/galeria.json", "../../data/galeria.json")'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:41.683] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:44.999] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:50.663] Browser ERROR   ./components/sections/gallery.tsx:2:14
+Parsing ecmascript source code failed
+  1 | import Image from 'next/image';
+> 2 | import  from "../../data/galeria.json";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Gallery() {
+  5 |   return (
+
+Expected ',', got 'string literal ("../../data/galeria.json", "../../data/galeria.json")'
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+[00:27:50.663] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:55.925] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:27:58.323] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:30:32.530] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:30:33.532] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:32:56.559] Server  ERROR   ⨯ ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+
+
+[00:32:57.729] Browser ERROR   uncaughtError: Error: ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+
+
+[00:32:57.928] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:32:57.928] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:32.864] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.867] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.874] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.879] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.889] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.894] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.896] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.908] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.910] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.915] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.919] Server  ERROR   ⨯ ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gallery.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gallery.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gallery.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:32.923] Server  ERROR   ⨯ ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gallery.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gallery.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gallery.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:33.083] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:33.083] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:33.083] Browser ERROR   ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gallery.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gallery.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gallery.json' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:33.083] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:33.393] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:33.393] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gallery.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:33.393] Browser ERROR   ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gallery.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gallery.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gallery.json' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:33.393] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:39.612] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.619] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.640] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.647] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.664] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.672] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.692] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gal.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.705] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gal.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.712] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gal.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.724] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gal.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.738] Server  ERROR   ⨯ ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gal.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gal.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gal.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.755] Server  ERROR   ⨯ ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gal.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gal.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gal.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:39.882] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/gal.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:39.882] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/gal.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:39.882] Browser ERROR   ./components/sections/gallery.tsx:4:1
+Module not found: Can't resolve '@/data/gal.json'
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+> 4 | import gallery from "@/data/gal.json";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function GallerySection() {
+  7 |   return (
+
+Import map: aliased to relative './data/gal.json' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:39.882] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:43.760] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.767] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.777] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.783] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.795] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.800] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.807] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.814] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.820] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.827] Server  ERROR   ⨯ ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:43.946] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:43.946] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:43.946] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:45.207] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:45.207] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:45.207] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:48.746] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+
+
+[00:33:49.442] Browser ERROR   uncaughtError: Error: ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:49.575] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:49.575] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:49.575] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:33:49.683] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:49.683] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:49.683] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:36:05.743] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+
+
+[00:36:06.886] Browser ERROR   uncaughtError: Error: ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:07.246] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:07.246] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:07.246] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:36:07.246] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:07.246] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:07.246] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:36:09.112] Server  ERROR   ⨯ ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+
+
+[00:36:10.002] Browser ERROR   uncaughtError: Error: ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:10.284] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:10.284] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:10.284] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:36:10.284] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:10.284] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:10.284] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx
+[00:37:45.530] Browser ERROR   ./components/sections/gallery.tsx:2:1
+Module not found: Can't resolve '@/components/ui/carousel'
+  1 | import Image from "next/image";
+> 2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+
+Import map: aliased to relative './components/ui/carousel' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:37:45.530] Browser ERROR   ./components/sections/gallery.tsx:3:1
+Module not found: Can't resolve '@/components/ui/dialog'
+  1 | import Image from "next/image";
+  2 | import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+> 3 | import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import gallery from "@/data/galeria.json";
+  5 |
+  6 | export default function GallerySection() {
+
+Import map: aliased to relative './components/ui/dialog' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/sections/gallery.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:37:45.530] Browser ERROR   ./data/menu.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/menu.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/data/menu.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 7 column 3
+    at [0].?
+       3 |     "id": 1,
+       4 |     "titulo": "Ojo de Bife Abrasado",
+       5 | 	"imageSrc": "/plato-carne.jpg",
+       6 |     "ingredientes": ["Ojo de bife premium con sal marina", "romero fresco y ajo confitado", "papa andina al manteca", "un toque de pimienta negra"], 
+         |   v
+       7 +   },
+         |   ^
+       8 |   {
+       9 |     "id": 2,
+      10 |     "titulo": "Trucha Patagónica",
+      11 |     "imageSrc": "/plato-trucha.jpg",
+
+Import trace:
+  Server Component:
+    ./data/menu.json
+    ./components/sections/menu.tsx
+    ./app/page.tsx

@@ -740,12 +740,12 @@ function Gallery() {
             className: "max-w-6xl mx-auto px-8"
         }, void 0, false, {
             fileName: "[project]/components/sections/gallery.tsx",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/gallery.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
