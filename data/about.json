@@ -1,0 +1,23 @@
+{
+  "historia": {
+    "subtitulo": "Nuestra Esencia",
+    "titulo": "Tradición que Innova",
+    "parrafos": [
+      "En el corazón de Mendoza, Restaurante Gourmet nace como un tributo a la alta cocina de autor en abril del año 2009, fusionando la riqueza de las tradiciones locales con técnicas de vanguardia.",
+      "Nuestros valores se fundamentan en el respeto absoluto por la materia prima y la búsqueda constante de la excelencia.",
+      "Cada plato es una obra maestra que refleja nuestra pasión por la gastronomía y nuestro compromiso con la innovación culinaria."
+    ]
+  },
+  "contacto": {
+    "titulo": "Visítenos",
+    "ubicacion": {
+      "direccion": "Peatonal Sarmiento,",
+      "ciudad": "Mendoza, Argentina",
+      "mapaUrl": "https://www.google.com/maps/search/?api=1&query=Peatonal+Sarmiento+Mendoza+Argentina"
+    },
+    "horarios": {
+      "dias": "Martes - Domingo",
+      "rango": "12:30 PM - 02:00 AM"
+    }
+  }
+}

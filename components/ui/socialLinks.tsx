@@ -20,16 +20,34 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+export const GoogleMapsIcon = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={2}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+    />
+  </svg>
+);
+
 interface SocialLinkProps {
   href: string;
-  icon: 'instagram' | 'facebook' | 'whatsapp';
+  icon: 'instagram' | 'facebook' | 'whatsapp' | 'googleMaps';
 }
 
 export const SocialLink = ({ href, icon }: SocialLinkProps) => {
   const icons = {
     instagram: <InstagramIcon className="w-5 h-5" />,
     facebook: <FacebookIcon className="w-5 h-5" />,
-    whatsapp: <WhatsAppIcon className="w-5 h-5" />
+    whatsapp: <WhatsAppIcon className="w-5 h-5" />,
+    googleMaps: <GoogleMapsIcon className="w-5 h-5" />
   };
 
   return (

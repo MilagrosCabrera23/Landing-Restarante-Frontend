@@ -25,8 +25,8 @@ export default function Team() {
                         <div className="relative w-48 h-48 mb-6 p-1.5 border-2 border-luxury-gold/20 rounded-full group-hover:border-luxury-gold transition-all duration-500 group-hover:shadow-lg">
                             <div className="relative w-full h-full overflow-hidden rounded-full">
                                 <Image
-                                    src={member.image}
-                                    alt={member.name}
+                                    src={member.foto}
+                                    alt={member.nombre}
                                     fill
                                     className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
                                 />
@@ -35,13 +35,13 @@ export default function Team() {
 
                         <div className="space-y-3">
                             <h3 className="text-xl text-luxury-charcoal group-hover:text-luxury-gold transition-colors duration-300">
-                                {member.name}
+                                {member.nombre}
                             </h3>
                             <p className="text-luxury-gold uppercase tracking-widest text-[9px] font-bold">
-                                {member.role}
+                                {member.cargo}
                             </p>
                             <p className="text-gray-500 text-sm leading-relaxed max-w-55 mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                {member.bio}
+                                {member.descripcion}
                             </p>
                         </div>
                     </div>

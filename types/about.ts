@@ -23,3 +23,8 @@ export interface SocialMedia {
     icono ?: string; 
 }
 
+export interface AboutData {
+    info: AboutInfo;
+    contacto: ContactInfo;
+    redes: SocialMedia[];
+}
