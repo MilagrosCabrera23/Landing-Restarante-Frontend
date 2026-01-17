@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import {GoogleMapsIcon} from '../ui/socialLinks';
+import { GoogleMapsIcon } from '../ui/socialLinks';
+import { MapPin, Clock } from "lucide-react";
 import aboutData from '@/data/about.json';
 
 
@@ -24,7 +25,7 @@ export default function About() {
 						</div>
 
 						<div className="space-y-4 text-gray-600 leading-relaxed tracking-widest  pl-6 ">
-							{historia.parrafos.map((p,index) => (
+							{historia.parrafos.map((p, index) => (
 								<p key={index} className="text-balance text-base font-light">
 									{p}
 								</p>
@@ -32,53 +33,63 @@ export default function About() {
 						</div>
 					</div>
 
-					<div className="bg-luxury-ivory/30 p-10 rounded-sm border border-luxury-gold/10 space-y-10">
+					<div className="bg-luxury-ivory/30 p-10 rounded-sm border border-luxury-gold/10 space-y-10 shadow-sm">
+
 						<div className="text-center border-b border-luxury-gold/20">
-							<h3 className="text-3xl text-luxury-charcoal italic">
+							<h3 className="text-2xl text-luxury-charcoal uppercase tracking-tight font-light font-serif">
 								{contacto.titulo}
 							</h3>
 						</div>
 
-						<div className="">
-							<div className="group m-2">
-								<p className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] font-bold ">
-									<span className="w-8 h-px bg-luxury-gold"></span>
-									{contacto.ubicacion.direccion}
-								</p>
-								<p className="text-luxury-charcoal leading-tight group-hover:text-luxury-gold transition-colors duration-300">
-									{contacto.ubicacion.direccion}{' '}
-									<span className="text-base text-gray-600">
-										{contacto.ubicacion.ciudad}
-									</span>
-								</p>
+						<div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+							<div className="space-y-4">
+								<div className="flex items-center justify-center gap-3 ">
+									<MapPin className="w-7 h-7 text-luxury-gold shrink-0" />
+									<p className="text-luxury-gold uppercase tracking-[0.3em] text-[12px] font-bold ">
+										<span className=" bg-luxury-gold"></span>
+										{contacto.ubicacion.titulo}
+									</p>
+								</div>
+								<div className="pl-4 text-center">
+									<p className="text-luxury-charcoal leading-tight group-hover:text-luxury-gold transition-colors duration-300">
+										{contacto.ubicacion.direccion}{' '}
+										<span className="text-base text-gray-600 racking-widest">
+											{contacto.ubicacion.ciudad}
+										</span>
+									</p>
+								</div>
 							</div>
 
-							<div>
-								<p className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] font-bold ">
-									<span className="w-14 h-px bg-luxury-gold"></span>
-									Horarios
-								</p>
-								<div className="pl-11 space-y-2">
-									<div className="flex items-center justify-between text-gray-700">
-										<span className="text-sm">{contacto.horarios.dias}</span>
-										<span className="text-sm font-medium">
+							<div className="space-y-4">
+								<div className="flex items-center justify-center gap-3">
+									<Clock className="w-7 h-7 text-luxury-gold shrink-0 " />
+									<p className="text-luxury-gold uppercase tracking-[0.3em] text-[12px] font-bold ">
+										<span className="w-14 h-px bg-luxury-gold"></span>
+										Horarios
+									</p>
+								</div>
+								<div className="pl-4">
+									<div className="flex flex-col items-center gap-1">
+										<span className="text-base text-gray-600 text-balance block">{contacto.horarios.dias}</span>
+										<span className="text-sm text-balance block">
 											{contacto.horarios.rango}
 										</span>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<div className="pt-6 border-t border-luxury-gold/10">
-							<Link
-								href={contacto.ubicacion.mapaUrl}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="group flex items-center justify-center gap-2 w-full bg-luxury-gold text-white py-3 px-6 text-xs uppercase tracking-widest font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm"
-							>
-								<span>Cómo llegar</span>
-								<GoogleMapsIcon className="w-5 h-5 fill-white group-hover:fill-luxury-gold transition-colors duration-300" />
-							</Link>
+							<div className=" flex justify-center items-center border-t  md:col-span-2 border-luxury-gold/10">
+								<Link
+									href={contacto.ubicacion.mapaUrl}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="-2 group flex items-center justify-center   bg-luxury-gold text-white py-3 px-4 text-xs uppercase tracking-widest font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm"
+								>
+									<span>Cómo llegar</span>
+									<GoogleMapsIcon className="w-5 h-5 fill-white group-hover:fill-luxury-gold transition-colors duration-300" />
+								</Link>
+							</div>
 						</div>
 					</div>
 				</div>
