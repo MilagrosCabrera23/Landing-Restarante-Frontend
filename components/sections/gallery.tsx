@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogTrigger, DialogTitle, DialogHeader } from 
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 
-export default function Gallery() {
+export default function Galeria() {
 
   const images: GalleryItem[] = galeriMenu;
 
@@ -34,14 +34,15 @@ export default function Gallery() {
                   </div>
                 </DialogTrigger>
 
-                <DialogContent className="max-w-5xl bg-transparent border-none p-0 shadow-none">
+                <DialogContent className="max-w-7xl bg-transparent border-none p-4">
                   <DialogHeader className="sr-only">
                     <DialogTitle>Galería de fotos - {image.alt}</DialogTitle>
                   </DialogHeader>
+
                   <Carousel opts={{ startIndex: index }} className="w-full">
-                    <CarouselContent>
+                    <CarouselContent className='ml-4'>
                       {images.map((item, idx) => (
-                        <CarouselItem key={idx} className="flex items-center justify-center">
+                        <CarouselItem key={idx} className="ml-4">
                           <div className="relative h-[80vh] w-full md:w-auto">
                             <Image src={item.src} alt={item.alt} fill className="object-contain" />
                           </div>
