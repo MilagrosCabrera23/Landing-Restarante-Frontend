@@ -42,6 +42,15 @@ interface SocialLinkProps {
   icon: 'instagram' | 'facebook' | 'whatsapp' | 'googleMaps';
 }
 
+export interface FooterData {
+    logo: string;
+    copyright: string;
+    redesSociales: {
+        plataforma: 'instagram' | 'facebook' | 'whatsapp' | 'googleMaps';
+        url: string;
+    }[];
+}
+
 export const SocialLink = ({ href, icon }: SocialLinkProps) => {
   const icons = {
     instagram: <InstagramIcon className="w-5 h-5" />,
@@ -49,6 +58,7 @@ export const SocialLink = ({ href, icon }: SocialLinkProps) => {
     whatsapp: <WhatsAppIcon className="w-5 h-5" />,
     googleMaps: <GoogleMapsIcon className="w-5 h-5" />
   };
+
 
   return (
     <Link

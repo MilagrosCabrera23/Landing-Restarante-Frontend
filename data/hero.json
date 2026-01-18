@@ -1,0 +1,17 @@
+{
+  "subtitulo": "Desde el corazón de Mendoza",
+  "tituloPrincipal": "El Arte de la",
+  "tituloResaltado": "Alta Cocina",
+  "descripcion": "Descubra una sinfonía de sabores diseñados para cautivar los sentidos en un ambiente de distinción única.",
+  "botones": {
+    "primario": {
+      "texto": "Explorar Menú",
+      "link": "#menu"
+    },
+    "secundario": {
+      "texto": "Reservar Mesa",
+      "link": "#reservar"
+    }
+  },
+  "imagenFondo": "/background-restaurant.webp"
+}

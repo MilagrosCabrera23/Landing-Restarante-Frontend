@@ -1,68 +1,74 @@
-[
-  {
-    "id": 1,
-    "titulo": "Ojo de Bife Abrasado",
-    "imageSrc": "/plato-carne.webp",
-    "ingredientes": [
-      "Ojo de bife premium con sal marina",
-      "romero fresco y ajo confitado",
-      "papa andina al manteca",
-      "un toque de pimienta negra"
-    ]
+{
+  "encabezado": {
+    "subtitulo": "Experiencia Culinaria",
+    "titulo": "Nuestro Menú"
   },
-  {
-    "id": 2,
-    "titulo": "Trucha Patagónica",
-    "imageSrc": "/plato-trucha.webp",
-    "ingredientes": [
-      "Trucha fresca con limón sutil",
-      "alcaparras y eneldo aromático",
-      "crema de hinojo suave",
-      "aceite de oliva extra virgen"
-    ]
-  },
-  {
-    "id": 3,
-    "titulo": "Risotto de Hongos Silvestres",
-    "imageSrc": "/plato-rissoto.webp",
-    "ingredientes": [
-      "Arroz arborio cremoso",
-      "con hongos silvestres salteados",
-      "Parmesano reggiano rallado",
-      "Reducción de vino blanco"
-    ]
-  },
-  {
-    "id": 4,
-    "titulo": "Ensalada Gourmet",
-    "imageSrc": "/plato-ensalada.webp",
-    "ingredientes": [
-      "Mix de lechugas frescas",
-      "tomate cherry y pepino crocante",
-      "queso feta griego y aceitunas",
-      "vinagreta balsámica artesanal"
-    ]
-  },
-  {
-    "id": 5,
-    "titulo": "Lasaña Vegetariana",
-    "imageSrc": "/plato-lasaña.webp",
-    "ingredientes": [
-      "Pasta fresca artesanal",
-      "berenjena, calabacín y espinaca",
-      "ricota cremosa italiana",
-      "salsa de tomate casera y mozzarella"
-    ]
-  },
-  {
-    "id": 6,
-    "titulo": "Pastel de Cordero Patagónico",
-    "imageSrc": "/plato-cordero.webp",
-    "ingredientes": [
-      "Cordero patagónico braseado",
-      "puré de papas con manteca",
-      "vegetales de estación asados",
-      "reducción de vino tinto"
-    ]
-  }
-]
+  "platos": [
+    {
+      "id": 1,
+      "titulo": "Ojo de Bife Abrasado",
+      "imageSrc": "/plato-carne.webp",
+      "ingredientes": [
+        "Ojo de bife premium con sal marina",
+        "romero fresco y ajo confitado",
+        "papa andina al manteca",
+        "un toque de pimienta negra"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Trucha Patagónica",
+      "imageSrc": "/plato-trucha.webp",
+      "ingredientes": [
+        "Trucha fresca con limón sutil",
+        "alcaparras y eneldo aromático",
+        "crema de hinojo suave",
+        "aceite de oliva extra virgen"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Risotto de Hongos Silvestres",
+      "imageSrc": "/plato-rissoto.webp",
+      "ingredientes": [
+        "Arroz arborio cremoso",
+        "con hongos silvestres salteados",
+        "Parmesano reggiano rallado",
+        "Reducción de vino blanco"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Ensalada Gourmet",
+      "imageSrc": "/plato-ensalada.webp",
+      "ingredientes": [
+        "Mix de lechugas frescas",
+        "tomate cherry y pepino crocante",
+        "queso feta griego y aceitunas",
+        "vinagreta balsámica artesanal"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Lasaña Vegetariana",
+      "imageSrc": "/plato-lasaña.webp",
+      "ingredientes": [
+        "Pasta fresca artesanal",
+        "berenjena, calabacín y espinaca",
+        "ricota cremosa italiana",
+        "salsa de tomate casera y mozzarella"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Pastel de Cordero Patagónico",
+      "imageSrc": "/plato-cordero.webp",
+      "ingredientes": [
+        "Cordero patagónico braseado",
+        "puré de papas con manteca",
+        "vegetales de estación asados",
+        "reducción de vino tinto"
+      ]
+    }
+  ]
+}

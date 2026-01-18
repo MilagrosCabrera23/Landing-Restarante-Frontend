@@ -2,6 +2,14 @@ export interface TeamMember {
     id: number;
     nombre: string;
     cargo: string;                
-    foto?: string;                
+    foto: string;                
     descripcion?: string;          
+}
+
+export interface TeamData {
+    encabezado: {
+        subtitulo: string;
+        titulo: string;
+    };
+    miembros: TeamMember[];
 }

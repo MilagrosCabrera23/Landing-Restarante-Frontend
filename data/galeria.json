@@ -1,4 +1,9 @@
-[
+{
+  "encabezado":{
+    "subtitulo": "Momentos especiales junto a ustedes",
+    "titulo": "Nuestra Galería"
+},
+"items": [
   {
     "src": "/galeria1.webp",
     "alt": "Plato Gourmet 1"
@@ -65,3 +70,4 @@
     "alt": "Cócteles exclusivos"
   }
 ]
+}

@@ -1,0 +1,9 @@
+{
+  "logo": "Restaurante Gourmet",
+  "copyright": "Todos los derechos reservados.",
+  "redesSociales": [
+    { "plataforma": "instagram", "url": "https://instagram.com/restaurantegourmet" },
+    { "plataforma": "facebook", "url": "https://facebook.com/restaurantegourmet" },
+    { "plataforma": "whatsapp", "url": "https://wa.me/542611234567" }
+  ]
+}

@@ -12,11 +12,13 @@
     "titulo": "Visítenos",
     "ubicacion": {
       "titulo": "Ubicación",
+      "comoLlegar": "Cómo llegar",
       "direccion": "Peatonal Sarmiento,",
       "ciudad": "Mendoza, Argentina",
       "mapaUrl": "https://www.google.com/maps/search/?api=1&query=Peatonal+Sarmiento+Mendoza+Argentina"
     },
     "horarios": {
+      "titulo": "Horarios",
       "dias": "Martes - Domingo",
       "rango": "12:30 PM - 02:00 AM"
     }

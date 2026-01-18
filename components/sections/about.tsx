@@ -10,21 +10,21 @@ export default function About() {
 	return (
 		<section
 			id="about"
-			className="w-full py-14 max-w-6xl mx-auto px-8"
+			className="w-full py-16 max-w-6xl mx-auto px-8"
 		>
 			<div className="">
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center mb-20">
-					<div className="space-y-6">
-						<div className="text-center">
-							<span className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold">
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+					<div className="space-y-8">
+						<div className="text-center space-y-4">
+							<span className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold block">
 								{historia.subtitulo}
 							</span>
-							<h2 className="text-4xl md:text-5xl text-luxury-charcoal leading-tight text-start">
+							<h2 className="text-4xl md:text-5xl text-luxury-charcoal leading-tight">
 								{historia.titulo} {' '}
 							</h2>
 						</div>
 
-						<div className="space-y-4 text-gray-600 leading-relaxed tracking-widest  pl-6 ">
+						<div className="space-y-6 text-gray-600 leading-relaxed tracking-widest md:pl-6 ">
 							{historia.parrafos.map((p, index) => (
 								<p key={index} className="text-balance text-base font-light">
 									{p}
@@ -33,10 +33,10 @@ export default function About() {
 						</div>
 					</div>
 
-					<div className="bg-luxury-ivory/30 p-10 rounded-sm border border-luxury-gold/10 space-y-10 shadow-sm">
+					<div className="bg-luxury-ivory/30 p-8 md:p-10 rounded-sm border border-luxury-gold/10 space-y-10 shadow-sm">
 
-						<div className="text-center border-b border-luxury-gold/20">
-							<h3 className="text-2xl text-luxury-charcoal uppercase tracking-tight font-light font-serif">
+						<div className="text-center border-b border-luxury-gold/20 pb-6">
+							<h3 className="text-2xl text-luxury-charcoal uppercase tracking-[0.2em] font-light font-serif">
 								{contacto.titulo}
 							</h3>
 						</div>
@@ -44,17 +44,17 @@ export default function About() {
 						<div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
 							<div className="space-y-4">
-								<div className="flex items-center justify-center gap-3 ">
-									<MapPin className="w-7 h-7 text-luxury-gold shrink-0" />
-									<p className="text-luxury-gold uppercase tracking-[0.3em] text-[12px] font-bold ">
-										<span className=" bg-luxury-gold"></span>
+								<div className="flex items-center justify-center sm:justify-start gap-3 ">
+									<MapPin className="w-6 h-6 text-luxury-gold shrink-0" />
+									<p className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] font-bold ">
+										<span className=" bg-luxury-gold "></span>
 										{contacto.ubicacion.titulo}
 									</p>
 								</div>
-								<div className="pl-4 text-center">
-									<p className="text-luxury-charcoal leading-tight group-hover:text-luxury-gold transition-colors duration-300">
+								<div className="pl-4 text-center md:text-start sm:pl-9">
+									<p className="text-luxury-charcoal leading-tight">
 										{contacto.ubicacion.direccion}{' '}
-										<span className="text-base text-gray-600 tracking-widest">
+										<span className=" text-gray-600">
 											{contacto.ubicacion.ciudad}
 										</span>
 									</p>
@@ -62,32 +62,32 @@ export default function About() {
 							</div>
 
 							<div className="space-y-4">
-								<div className="flex items-center justify-center gap-3">
-									<Clock className="w-7 h-7 text-luxury-gold shrink-0 " />
-									<p className="text-luxury-gold uppercase tracking-[0.3em] text-[12px] font-bold ">
-										<span className="w-14 h-px bg-luxury-gold"></span>
-										Horarios
+								<div className="flex items-center justify-center sm:justify-start gap-3">
+									<Clock className="w-6 h-6 text-luxury-gold shrink-0 " />
+									<p className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] font-bold ">
+										<span className="w-14x bg-luxury-gold"></span>
+										{contacto.horarios.titulo}
 									</p>
 								</div>
-								<div className="pl-4">
-									<div className="flex flex-col items-center gap-1">
-										<span className="text-base text-gray-600 text-balance block">{contacto.horarios.dias}</span>
-										<span className="text-sm text-balance block">
+								
+									<div className="flex flex-col items-center gap-1 text-center sm:text-start sm:pl-9">
+										<span className="font-medium text-gray-600 ">{contacto.horarios.dias}</span>
+										<span className="text-xs text-gray-500 uppercase tracking-widest font-medium">
 											{contacto.horarios.rango}
 										</span>
 									</div>
 								</div>
-							</div>
+							
 
-							<div className=" flex justify-center items-center border-t  md:col-span-2 border-luxury-gold/10">
+							<div className="pt-6 border-t border-luxury-gold/10 sm:col-span-2">
 								<Link
 									href={contacto.ubicacion.mapaUrl}
 									target="_blank"
 									rel="noopener noreferrer"
-									className="group flex items-center justify-center gap-2 bg-luxury-gold text-white py-3 px-6 text-xs uppercase tracking-widest font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm"
+									className="group flex items-center justify-center gap-3 bg-luxury-gold text-white py-4 px-6 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm"
 								>
-									<span>Cómo llegar</span>
-									<GoogleMapsIcon className="w-5 h-5 fill-white group-hover:fill-luxury-gold transition-colors duration-300" />
+									<span>{contacto.ubicacion.comoLlegar}</span>
+									<GoogleMapsIcon className="w-4 h-4 fill-white group-hover:fill-luxury-gold transition-colors duration-300" />
 								</Link>
 							</div>
 						</div>

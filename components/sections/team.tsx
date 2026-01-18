@@ -1,25 +1,29 @@
-import team from '@/data/team.json';
+import teamDataRaw from '@/data/team.json';
+import { TeamData } from '@/types/team';
 import Image from 'next/image';
 
 export default function Team() {
+
+    const { encabezado, miembros } = teamDataRaw as TeamData;
+
     return (
         <section
             id="team"
-            className="w-full bg-white py-16 max-w-6xl mx-auto px-8">
-            <div className="text-center m-8">
-                <span className="text-luxury-gold uppercase tracking-[0.4em] text-[10px] font-bold">
-                    El Alma de Restaurante Gourmet
+            className="w-full bg-white py-16 max-w-6xl mx-auto px-6">
+            <div className="text-center mb-16 space-y-4">
+                <span className="text-luxury-gold uppercase tracking-[0.3em] text-[10px]md:text-xs font-bold">
+                   { encabezado.titulo }
                 </span>
-                <h2 className="text-4xl text-luxury-charcoal">
-                    Nuestro <span className="font-normal">Equipo</span>
+                <h2 className="text-4xl md:text-5xl text-luxury-charcoal leading-tight">
+                    { encabezado.subtitulo }
                 </h2>
-                <div className="w-16 h-px bg-luxury-gold mx-auto mt-4"></div>
+                <div className="w-12 h-px bg-luxury-gold mx-auto mt-6"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                {team.map((member, index) => (
+                {miembros.map((member, index) => (
                     <div
-                        key={index}
+                        key={member.id}
                         className="flex flex-col items-center text-center group"
                     >
                         <div className="relative w-48 h-48 mb-6 p-1.5 border-2 border-luxury-gold/20 rounded-full group-hover:border-luxury-gold transition-all duration-500 group-hover:shadow-lg">
@@ -37,7 +41,7 @@ export default function Team() {
                             <h3 className="text-xl text-luxury-charcoal group-hover:text-luxury-gold transition-colors duration-300">
                                 {member.nombre}
                             </h3>
-                            <p className="text-luxury-gold uppercase tracking-widest text-[9px] font-bold">
+                            <p className="text-luxury-gold uppercase tracking-[0.2em] text-[10px] font-bold">
                                 {member.cargo}
                             </p>
                             <p className="text-gray-500 text-sm leading-relaxed max-w-55 mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500">

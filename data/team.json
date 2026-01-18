@@ -1,4 +1,9 @@
-[
+{
+	"encabezado":{
+	"titulo":"El Alma de Restaurante Gourmet",
+	"subtitulo":"Nuestro equipo"
+},
+"miembros":[
 	{
 		"id": 1,
 		"nombre": "Marco De la Vega",
@@ -28,3 +33,6 @@
 		"foto": "/chica2.webp"
     }
 ]
+}
+
+

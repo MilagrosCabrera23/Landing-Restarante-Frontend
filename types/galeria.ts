@@ -4,4 +4,10 @@ export interface GalleryItem {
   className?: string;
 }
 
-export type Gallery = GalleryItem[];
+export interface GalleryData {
+  encabezado: {
+  titulo: string;
+  subtitulo: string;
+};
+  items: GalleryItem[];
+}
