@@ -4,27 +4,27 @@
 		"nombre": "Marco De la Vega",
 		"cargo": "Chef Ejecutivo",
 		"descripcion": "Especialista en cocina de vanguardia con raíces mendocinas.",
-		"foto": "/CHEF.jpg"
+		"foto": "/CHEF.webp"
 	},
 	{
 		"id": 2,
 		"nombre": "Lucía Sanchez",
 		"cargo": "Sommelier",
 		"descripcion": "Curadora de nuestra cava, experta en maridajes de altura.",
-		"foto": "/chica1.jpg"
+		"foto": "/chica1.webp"
 	},
 	{
 		"id": 3,
 		"nombre": "Andrés Silva",
 		"cargo": "Jefe de Salón",
 		"descripcion": "Dedicado a que cada visita sea una experiencia impecable.",
-		"foto": "/chico2.jpg"
+		"foto": "/chico2.webp"
 	},
 	{
 		"id": 4,
 		"nombre": "Elena Martínez",
 		"cargo": "Pastelera",
 		"descripcion": "Transforma ingredientes locales en arte dulce de autor.",
-		"foto": "/chica2.jpg"
+		"foto": "/chica2.webp"
     }
 ]

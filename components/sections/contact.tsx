@@ -4,14 +4,14 @@ import { User, Phone, Users, Calendar } from "lucide-react"
 
 export default function Contact() {
 	return (
-		<section id="reservar" className="w-full py-6 px-4 bg-luxury-ivory">
+		<section id="reservar" className="w-full py-16 px-4 bg-luxury-ivory">
 			<div className="max-w-4xl mx-auto px-8">
 
-				<div className="text-center mb-6">
+				<div className="text-center mb-10">
 					<span className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold">
 						Disponibilidad Exclusiva
 					</span>
-					<h2 className="text-3xl md:text-5xl text-luxury-charcoal font-serif mt-4">
+					<h2 className="text-3xl md:text-5xl text-luxury-charcoal font-serif">
 						Reserva tu <span className="italic">Mesa</span>
 					</h2>
 				</div>
@@ -81,7 +81,7 @@ export default function Contact() {
 						>
 							Confirmar Reserva
 						</button>
-						<p className="text-[9px] text-gray-400 text-center mt-4 uppercase tracking-widest">
+						<p className="text-[10px] text-gray-500 text-center mt-4 uppercase tracking-widest">
 							Sujeto a disponibilidad del salón.
 						</p>
 					</div>

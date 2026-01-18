@@ -9,17 +9,17 @@ export default function Header() {
         <Link href="/" className="p-2 text-luxury-gold font-light italic">Restaurante Gourmet</Link>
       </div>
 
-      <nav className="space-x-10">
-        <Link href="#about" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold  hover: transition-colors font-sans font-medium">
+      <nav className="hidden md:flex items-center space-x-10">
+        <Link href="#about" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold hover:text-luxury-charcoal transition-colors duration-300 font-sans font-medium">
           Sobre Nosotros
         </Link>
-        <Link href="#menu" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold  hover:transition-colors font-sans font-medium">
+        <Link href="#menu" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold hover:text-luxury-charcoal transition-colors duration-300 font-sans font-medium">
           Menú
         </Link>
-         <Link href="#team" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold  hover: transition-colors font-sans font-medium">
+        <Link href="#team" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold hover:text-luxury-charcoal transition-colors duration-300 font-sans font-medium">
           Equipo
         </Link>
-        <Link href="#galeria" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold  hover: transition-colors font-sans font-medium">
+        <Link href="#galeria" className="text-[10px] uppercase tracking-[0.2em] text-luxury-gold hover:text-luxury-charcoal transition-colors duration-300 font-sans font-medium">
           Galería
         </Link>
 

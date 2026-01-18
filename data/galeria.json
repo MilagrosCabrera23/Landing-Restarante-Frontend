@@ -1,67 +1,67 @@
 [
   {
-    "src": "/galeria1.jpg",
+    "src": "/galeria1.webp",
     "alt": "Plato Gourmet 1"
   },
   {
-    "src": "/galeria2.jpg",
+    "src": "/galeria2.webp",
     "alt": "Nuestro Salón",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria3.jpg",
+    "src": "/galeria3.webp",
     "alt": "Chef en acción"
   },
   {
-    "src": "/galeria4.jpg",
+    "src": "/galeria4.webp",
     "alt": "Cava de vinos"
   },
   {
-    "src": "/galeria5.jpg",
+    "src": "/galeria5.webp",
     "alt": "Detalle de mesa",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria6.jpg",
+    "src": "/galeria6.webp",
     "alt": "Postre de autor"
   },
   {
-    "src": "/galeria7.jpg",
+    "src": "/galeria7.webp",
     "alt": "Vista nocturna del restaurante"
   },
   {
-    "src": "/galeria8.jpg",
+    "src": "/galeria8.webp",
     "alt": "Brindis con champagne",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria9.jpg",
+    "src": "/galeria9.webp",
     "alt": "Entrada elegante"
   },
   {
-    "src": "/galeria10.jpg",
+    "src": "/galeria10.webp",
     "alt": "Chef preparando plato"
   },
   {
-    "src": "/galeria11.jpg",
+    "src": "/galeria11.webp",
     "alt": "Ambiente acogedor",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria12.jpg",
+    "src": "/galeria12.webp",
     "alt": "Selección de vinos"
   },
   {
-    "src": "/galeria13.jpg",
+    "src": "/galeria13.webp",
     "alt": "Cocina abierta"
   },
   {
-    "src": "/galeria14.jpg",
+    "src": "/galeria14.webp",
     "alt": "Equipo de chefs",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria15.jpg",
+    "src": "/galeria15.webp",
     "alt": "Cócteles exclusivos"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "titulo": "Ojo de Bife Abrasado",
-    "imageSrc": "/plato-carne.jpg",
+    "imageSrc": "/plato-carne.webp",
     "ingredientes": [
       "Ojo de bife premium con sal marina",
       "romero fresco y ajo confitado",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "titulo": "Trucha Patagónica",
-    "imageSrc": "/plato-trucha.jpg",
+    "imageSrc": "/plato-trucha.webp",
     "ingredientes": [
       "Trucha fresca con limón sutil",
       "alcaparras y eneldo aromático",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "titulo": "Risotto de Hongos Silvestres",
-    "imageSrc": "/plato-rissoto.jpg",
+    "imageSrc": "/plato-rissoto.webp",
     "ingredientes": [
       "Arroz arborio cremoso",
       "con hongos silvestres salteados",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "titulo": "Ensalada Gourmet",
-    "imageSrc": "/plato-ensalada.jpg",
+    "imageSrc": "/plato-ensalada.webp",
     "ingredientes": [
       "Mix de lechugas frescas",
       "tomate cherry y pepino crocante",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "titulo": "Lasaña Vegetariana",
-    "imageSrc": "/plato-lasaña.jpg",
+    "imageSrc": "/plato-lasaña.webp",
     "ingredientes": [
       "Pasta fresca artesanal",
       "berenjena, calabacín y espinaca",
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "titulo": "Pastel de Cordero Patagónico",
-    "imageSrc": "/plato-cordero.jpg",
+    "imageSrc": "/plato-cordero.webp",
     "ingredientes": [
       "Cordero patagónico braseado",
       "puré de papas con manteca",

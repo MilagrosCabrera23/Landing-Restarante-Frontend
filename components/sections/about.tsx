@@ -54,7 +54,7 @@ export default function About() {
 								<div className="pl-4 text-center">
 									<p className="text-luxury-charcoal leading-tight group-hover:text-luxury-gold transition-colors duration-300">
 										{contacto.ubicacion.direccion}{' '}
-										<span className="text-base text-gray-600 racking-widest">
+										<span className="text-base text-gray-600 tracking-widest">
 											{contacto.ubicacion.ciudad}
 										</span>
 									</p>
@@ -84,7 +84,7 @@ export default function About() {
 									href={contacto.ubicacion.mapaUrl}
 									target="_blank"
 									rel="noopener noreferrer"
-									className="-2 group flex items-center justify-center   bg-luxury-gold text-white py-3 px-4 text-xs uppercase tracking-widest font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm"
+									className="group flex items-center justify-center gap-2 bg-luxury-gold text-white py-3 px-6 text-xs uppercase tracking-widest font-bold hover:bg-luxury-charcoal transition-all duration-300 rounded-sm"
 								>
 									<span>Cómo llegar</span>
 									<GoogleMapsIcon className="w-5 h-5 fill-white group-hover:fill-luxury-gold transition-colors duration-300" />
