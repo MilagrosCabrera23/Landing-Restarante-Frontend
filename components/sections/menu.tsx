@@ -3,9 +3,9 @@ import menuItems from "../../data/menu.json";
 
 export default function Menu() {
 	return (
-		<section id="menu" className="w-full py-2 max-w-6xl mx-auto px-4  bg-luxury-ivory">
+		<section id="menu" className="w-full py-2 max-w-6xl mx-auto  bg-luxury-ivory">
       <div className="">
-        <div className="text-center m-2">
+        <div className="text-center">
           <span className="text-luxury-gold uppercase tracking-[0.4em] text-[10px] font-bold">
             Experiencia Culinaria
           </span>

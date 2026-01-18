@@ -12,7 +12,7 @@ export default function Galeria() {
   const images: GalleryItem[] = galeriMenu;
 
   return (
-    <section id="galeria" className="w-full py-24 bg-white">
+    <section id="galeria" className="w-full py-2">
       <div className="max-w-6xl mx-auto px-8">
 
         <div className="text-center">
