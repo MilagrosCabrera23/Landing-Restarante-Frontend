@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import { SocialLinkProps } from '@/types/footer';
 
 const InstagramIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -36,20 +36,6 @@ export const GoogleMapsIcon = ({ className }: { className?: string }) => (
     />
   </svg>
 );
-
-interface SocialLinkProps {
-  href: string;
-  icon: 'instagram' | 'facebook' | 'whatsapp' | 'googleMaps';
-}
-
-export interface FooterData {
-    logo: string;
-    copyright: string;
-    redesSociales: {
-        plataforma: 'instagram' | 'facebook' | 'whatsapp' | 'googleMaps';
-        url: string;
-    }[];
-}
 
 export const SocialLink = ({ href, icon }: SocialLinkProps) => {
   const icons = {

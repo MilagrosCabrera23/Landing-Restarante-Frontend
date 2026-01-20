@@ -1,0 +1,13 @@
+{
+    "logo":"Restaurante Gourmet",
+    "links":[
+        {"label":"Sobre Nosotros","href":"#about"},
+        {"label":"Menu","href":"#menu"},
+        {"label":"Equipo","href":"#team"},
+        {"label":"Galeria","href":"#galeria"}
+    ],
+    "cta":{
+        "label":"Reservar ",
+        "href":"#reservar"
+    }
+}
