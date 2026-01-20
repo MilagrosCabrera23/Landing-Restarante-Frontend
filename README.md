@@ -12,7 +12,7 @@ Una aplicación web moderna y responsiva para la landing page de un restaurante 
 - Componentes reutilizables con Radix UI y CVA
 -  Accesibilidad mejorada
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 ### Framework & Librerías
 - **Next.js 16.1.1** - Framework React con SSR/SSG
@@ -34,7 +34,7 @@ Una aplicación web moderna y responsiva para la landing page de un restaurante 
 - **Zod 4.3.5** - Validación de esquemas TypeScript
 - **date-fns 4.1.0** - Utilidades de fecha
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 landing-restaurante/
@@ -109,7 +109,7 @@ yarn install
 cp .env.example .env.local
 # Edita .env.local con tus variables
 ```
-## 💻 Scripts Disponibles
+##  Scripts Disponibles
 
 ### Desarrollo
 ```bash
@@ -130,7 +130,7 @@ npm run lint
 ```
 Ejecuta ESLint para verificar la calidad del código
 
-## 📚 Componentes Principales
+## Componentes Principales
 
 ### Secciones
 - **Hero** - Sección introductoria principal con CTA
@@ -147,7 +147,7 @@ Ejecuta ESLint para verificar la calidad del código
 - **Dialog** - Modales y diálogos
 - **SocialLinks** - Enlaces a redes sociales
 
-## 📝 Licencia
+##  Licencia
 
 Este proyecto está bajo la licencia **MIT**.
 

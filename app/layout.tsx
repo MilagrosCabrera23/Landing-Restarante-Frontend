@@ -2,6 +2,7 @@ import './globals.css'
 import { Playfair_Display, Inter } from 'next/font/google';
 import Header from '../components/layout/header'
 import Footer from '../components/layout/footer'
+import {Toaster} from "@/components/ui/sonner"
 
 export const metadata = {
   title: 'Restaurante Gourmet',
@@ -37,9 +38,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>
+      <body className={`${playfair.variable} ${inter.variable} font-sans`}>
         <Header />
         {children}
+        <Toaster position="top-right" richColors />
         <Footer />
       </body>
     </html>
