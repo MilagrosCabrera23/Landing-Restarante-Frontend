@@ -1,4 +1,4 @@
-export interface Plato {
+export interface CardMenuProps {
     id: number;
     titulo: string;
     imageSrc: string;
@@ -10,5 +10,6 @@ export interface MenuData {
         subtitulo: string;
         titulo: string;
     };
-    platos: Plato[];
+    platos: CardMenuProps[];
 }
+

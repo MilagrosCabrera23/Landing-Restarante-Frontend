@@ -1,4 +1,4 @@
-import { CardMenuProps } from "../ui/cardMenu";
+import { CardMenu } from "../ui/cardMenu";
 import menuDataRaw from "../../data/menu.json";
 import { MenuData } from "@/types/menu";
 
@@ -23,7 +23,7 @@ export default function Menu() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {platos.map((item) => (
-            <CardMenuProps
+            <CardMenu
               key={item.id}
               id={item.id}
               titulo={item.titulo}

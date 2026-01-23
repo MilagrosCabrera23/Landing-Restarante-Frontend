@@ -1,13 +1,7 @@
 import Image from "next/image";
+import { CardMenuProps } from "@/types/menu";
 
-interface CardMenuProps {
-    imageSrc: string;
-    id: number;
-    titulo: string;
-    ingredientes: string[];
-}
-
-export const CardMenuProps = ({ imageSrc, titulo, ingredientes, id }: CardMenuProps) => {
+export const CardMenu = ({ imageSrc, titulo, ingredientes, id }: CardMenuProps) => {
     return (
         <div className="group flex flex-col cursor-default">
             <div className="relative h-54 md:h-60 w-full overflow-hidden rounded-sm shadow-sm bg-gray-100">
