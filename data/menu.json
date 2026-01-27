@@ -7,7 +7,7 @@
     {
       "id": 1,
       "titulo": "Ojo de Bife Abrasado",
-      "imageSrc": "/plato-carne.webp",
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494724/plato-carne_obsny8.webp",
       "ingredientes": [
         "Ojo de bife premium con sal marina",
         "romero fresco y ajo confitado",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "titulo": "Trucha Patagónica",
-      "imageSrc": "/plato-trucha.webp",
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494734/plato-trucha_jdi8vy.webp",
       "ingredientes": [
         "Trucha fresca con limón sutil",
         "alcaparras y eneldo aromático",
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "titulo": "Risotto de Hongos Silvestres",
-      "imageSrc": "/plato-rissoto.webp",
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494733/plato-rissoto_aeo9ot.webp",
       "ingredientes": [
         "Arroz arborio cremoso",
         "con hongos silvestres salteados",
@@ -40,7 +40,7 @@
     {
       "id": 4,
       "titulo": "Ensalada Gourmet",
-      "imageSrc": "/plato-ensalada.webp",
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494723/plato-ensalada_keryat.webp",
       "ingredientes": [
         "Mix de lechugas frescas",
         "tomate cherry y pepino crocante",
@@ -51,7 +51,7 @@
     {
       "id": 5,
       "titulo": "Lasaña Vegetariana",
-      "imageSrc": "/plato-lasaña.webp",
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494734/plato-lasaña_kbzupi.webp",
       "ingredientes": [
         "Pasta fresca artesanal",
         "berenjena, calabacín y espinaca",
@@ -62,7 +62,7 @@
     {
       "id": 6,
       "titulo": "Pastel de Cordero Patagónico",
-      "imageSrc": "/plato-cordero.webp",
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494725/plato-cordero_o4cr13.webp",
       "ingredientes": [
         "Cordero patagónico braseado",
         "puré de papas con manteca",

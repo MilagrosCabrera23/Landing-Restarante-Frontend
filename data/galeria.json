@@ -5,68 +5,68 @@
 },
 "items": [
   {
-    "src": "/galeria1.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494715/galeria1_pumgvi.webp",
     "alt": "Plato Gourmet 1"
   },
   {
-    "src": "/galeria2.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494710/galeria2_vxksfa.webp",
     "alt": "Nuestro Salón",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria3.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494712/galeria3_gudwka.webp",
     "alt": "Chef en acción"
   },
   {
-    "src": "/galeria4.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494713/galeria4_knk6d3.webp",
     "alt": "Cava de vinos"
   },
   {
-    "src": "/galeria5.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494714/galeria5_kilbhy.webp",
     "alt": "Detalle de mesa",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria6.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494715/galeria6_q2mara.webp",
     "alt": "Postre de autor"
   },
   {
-    "src": "/galeria7.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494714/galeria7_rjwdkd.webp",
     "alt": "Vista nocturna del restaurante"
   },
   {
-    "src": "/galeria8.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494715/galeria8_il6sja.webp",
     "alt": "Brindis con champagne",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria9.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494719/galeria9_htvqwt.webp",
     "alt": "Entrada elegante"
   },
   {
-    "src": "/galeria10.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494717/galeria10_hai2dz.webp",
     "alt": "Chef preparando plato"
   },
   {
-    "src": "/galeria11.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494723/galeria11_fzzkrg.webp",
     "alt": "Ambiente acogedor",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria12.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494722/galeria12_nzx5we.webp",
     "alt": "Selección de vinos"
   },
   {
-    "src": "/galeria13.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494723/galeria13_thuhuy.webp",
     "alt": "Cocina abierta"
   },
   {
-    "src": "/galeria14.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494718/galeria14_es1k0u.webp",
     "alt": "Equipo de chefs",
     "className": "md:col-span-2 md:row-span-2"
   },
   {
-    "src": "/galeria15.webp",
+    "src": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494722/galeria15_fql0qv.webp",
     "alt": "Cócteles exclusivos"
   }
 ]
