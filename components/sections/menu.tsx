@@ -15,7 +15,7 @@ export default function Menu() {
             {encabezado.subtitulo}
           </span>
           <h2 className="text-3xl md:text-5xl text-luxury-charcoal leading-tight">
-            {encabezado.titulo} <span className="italic font-light">Menú</span>
+            {encabezado.titulo} 
           </h2>
 
           <div className="w-12 h-px bg-luxury-gold mx-auto"></div>

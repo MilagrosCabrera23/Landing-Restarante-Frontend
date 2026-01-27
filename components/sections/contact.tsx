@@ -41,10 +41,10 @@ export default function Contact() {
     };
 
     return (
-				<section id="reservar" className="w-full py-16 px-4 bg-luxury-ivory">
+				<section id="reservar" className="w-full py-16 px-8 bg-luxury-ivory">
 					<div className="max-w-4xl mx-auto px-8">
 
-						<div className="text-center mb-10">
+						<div className="text-center mb-10 ">
 							<span className="text-luxury-gold uppercase tracking-[0.3em] text-[10px] md:text-xs font-bold">
 								{encabezado.subtitulo}
 							</span>
@@ -58,7 +58,7 @@ export default function Contact() {
 							<div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
 
 								<div className="space-y-3 label-nombre">
-									<Label htmlFor="name" className="text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
+									<Label htmlFor="name" className="text-[12px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
 										<User className="w-3 h-3" />
 										{formulario.campos.nombre}
 									</Label>
@@ -73,7 +73,7 @@ export default function Contact() {
 								</div>
 
 								<div className="space-y-3 label-telefono">
-									<Label htmlFor="phone" className="text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
+									<Label htmlFor="phone" className="text-[12px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
 										<Phone className="w-3 h-3" /> {formulario.campos.telefono}
 									</Label>
 									<Input
@@ -87,7 +87,7 @@ export default function Contact() {
 								</div>
 
 								<div className="space-y-3">
-									<Label htmlFor="cantidad-personas" className="text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
+									<Label htmlFor="cantidad-personas" className="text-[12px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
 										<Users className="w-3 h-3" /> {formulario.campos.personas}
 									</Label>
 									<Input
@@ -103,7 +103,7 @@ export default function Contact() {
 								</div>
 
 								<div className="space-y-3 label-fecha-hora">
-									<Label htmlFor="date" className="text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
+									<Label htmlFor="date" className="text-[12px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
 										<Calendar className="w-3 h-3" /> {formulario.campos.fecha}
 									</Label>
 									<Input
@@ -118,7 +118,7 @@ export default function Contact() {
 							</div>
 
 							<div className="space-y-3 label-observaciones">
-								<Label htmlFor="observaciones" className="text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
+								<Label htmlFor="observaciones" className="text-[12px] uppercase tracking-[0.2em] font-bold text-luxury-gold flex items-center gap-2">
 									{formulario.campos.observaciones}
 								</Label>
 								<textarea
@@ -137,7 +137,7 @@ export default function Contact() {
 								>
 									{isSubmitting ? formulario.botonEnviando : formulario.boton}
 								</button>
-								<p className="text-[10px] text-gray-500 text-center mt-4 uppercase tracking-widest">
+								<p className="text-[12px] text-gray-500 text-center mt-4 uppercase tracking-widest">
 									{formulario.nota}
 								</p>
 							</div>

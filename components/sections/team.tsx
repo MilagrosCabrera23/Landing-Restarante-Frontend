@@ -41,7 +41,7 @@ export default function Team() {
                             <h3 className="text-xl text-luxury-charcoal group-hover:text-luxury-gold transition-colors duration-300">
                                 {member.nombre}
                             </h3>
-                            <p className="text-luxury-gold uppercase tracking-[0.2em] text-[10px] font-bold">
+                            <p className="text-luxury-gold uppercase tracking-[0.2em] text-[12px] font-bold">
                                 {member.cargo}
                             </p>
                             <p className="text-gray-500 text-sm leading-relaxed max-w-55 mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500">
