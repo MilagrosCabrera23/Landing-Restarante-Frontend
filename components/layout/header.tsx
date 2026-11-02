@@ -12,7 +12,7 @@ export default function Header() {
 
   const toggleMenu = () => setIsOpenMenu((v) => !v);
 
-  const LinksNav = ({ isMobile = false }: { isMobile?: boolean }) => (
+  const renderLinks = (isMobile = false) => (
     <>
       {links.map((link) => (
         <li key={link.href}>
@@ -47,7 +47,7 @@ export default function Header() {
 
           <nav className="hidden md:flex items-center space-x-10">
             <ul className="flex items-center gap-8">
-              <LinksNav />
+              {renderLinks()}
             </ul>
           </nav>
 
@@ -69,7 +69,7 @@ export default function Header() {
       >
         <nav className="flex flex-col items-center space-y-8 px-8">
             <ul className="flex-col items-center space-y-8 px-8">
-          <LinksNav isMobile />
+          {renderLinks(true)}
           </ul>
         </nav>
       </div>

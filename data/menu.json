@@ -3,10 +3,21 @@
     "subtitulo": "Experiencia Culinaria",
     "titulo": "Nuestro Menú"
   },
+  "categorias": [
+    { "id": "entradas", "label": "Entradas" },
+    { "id": "principales", "label": "Principales" },
+    { "id": "vegetarianos", "label": "Vegetarianos" },
+    { "id": "veganos", "label": "Veganos" },
+    { "id": "postres", "label": "Postres" },
+    { "id": "bebidas", "label": "Bebidas" }
+  ],
   "platos": [
     {
       "id": 1,
       "titulo": "Ojo de Bife Abrasado",
+      "categoria": "principales",
+      "descripcion": "Ojo de bife premium con papa andina, romero fresco y ajo confitado.",
+      "precio": 18500,
       "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494724/plato-carne_obsny8.webp",
       "ingredientes": [
         "Ojo de bife premium con sal marina",
@@ -18,6 +29,9 @@
     {
       "id": 2,
       "titulo": "Trucha Patagónica",
+      "categoria": "principales",
+      "descripcion": "Trucha fresca con limón sutil, alcaparras y crema de hinojo.",
+      "precio": 16200,
       "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494734/plato-trucha_jdi8vy.webp",
       "ingredientes": [
         "Trucha fresca con limón sutil",
@@ -29,6 +43,9 @@
     {
       "id": 3,
       "titulo": "Risotto de Hongos Silvestres",
+      "categoria": "vegetarianos",
+      "descripcion": "Arroz arborio cremoso con hongos silvestres y parmesano reggiano.",
+      "precio": 14500,
       "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494733/plato-rissoto_aeo9ot.webp",
       "ingredientes": [
         "Arroz arborio cremoso",
@@ -40,6 +57,9 @@
     {
       "id": 4,
       "titulo": "Ensalada Gourmet",
+      "categoria": "vegetarianos",
+      "descripcion": "Mix de hojas, tomate cherry, queso feta y vinagreta balsámica artesanal.",
+      "precio": 9800,
       "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494723/plato-ensalada_keryat.webp",
       "ingredientes": [
         "Mix de lechugas frescas",
@@ -51,6 +71,9 @@
     {
       "id": 5,
       "titulo": "Lasaña Vegetariana",
+      "categoria": "vegetarianos",
+      "descripcion": "Pasta fresca, vegetales de estación, ricota y mozzarella.",
+      "precio": 12500,
       "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494734/plato-lasaña_kbzupi.webp",
       "ingredientes": [
         "Pasta fresca artesanal",
@@ -62,12 +85,423 @@
     {
       "id": 6,
       "titulo": "Pastel de Cordero Patagónico",
+      "categoria": "principales",
+      "descripcion": "Cordero braseado con puré de papas y vegetales de estación asados.",
+      "precio": 17800,
       "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/v1769494725/plato-cordero_o4cr13.webp",
       "ingredientes": [
         "Cordero patagónico braseado",
         "puré de papas con manteca",
         "vegetales de estación asados",
         "reducción de vino tinto"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Empanadas Criollas a Cuchillo",
+      "categoria": "entradas",
+      "descripcion": "Empanadas tradicionales de lomo cortado a cuchillo al horno de barro con salsa llajua.",
+      "precio": 7200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/empanadas-carne-cuchillo-4-819x1024_dy9lad.webp",
+      "ingredientes": [
+        "Lomo vacuno seleccionado",
+        "cebolla de verdeo y comino suave",
+        "huevo de campo",
+        "masa casera horneada"
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Provoleta de Campo Fundida",
+      "categoria": "entradas",
+      "descripcion": "Queso provolone fundido a la chapa con tomates confitados, orégano fresco y oliva.",
+      "precio": 8900,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/provoleta_rcjdzx",
+      "ingredientes": [
+        "Provolone hilado parrillero",
+        "tomates secos confitados",
+        "orégano fresco y ají molido",
+        "aceite de oliva extra virgen"
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Carpaccio de Lomo con Alcaparras",
+      "categoria": "entradas",
+      "descripcion": "Láminas finas de lomo curado con rúcula selvática, alcaparras baby y lascas de parmesano.",
+      "precio": 10500,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/carpacio_doh7xk.webp",
+      "ingredientes": [
+        "Lomo vacuno curado",
+        "rúcula fresca de estación",
+        "alcaparras baby",
+        "parmesano reggiano y jugo de limón"
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Mollejas Glaseadas al Limón",
+      "categoria": "entradas",
+      "descripcion": "Mollejas crocantes doradas a la plancha con reducción cítrica de limón sutil y ciboulette.",
+      "precio": 11200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/molleja_smy0yo.webp",
+      "ingredientes": [
+        "Mollejas de corazón crocantes",
+        "reducción de limón y vino blanco",
+        "ciboulette fresco",
+        "sal marina en escamas"
+      ]
+    },
+    {
+      "id": 11,
+      "titulo": "Bruschettas Mediterráneas",
+      "categoria": "entradas",
+      "descripcion": "Pan de masa madre tostado con tomates cherry asados, albahaca genovesa y jamón crudo serrano.",
+      "precio": 8200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/bruchetas_uqbdcb.webp",
+      "ingredientes": [
+        "Pan de masa madre tostado",
+        "tomates cherry confitados",
+        "jamón crudo curado 12 meses",
+        "hojas de albahaca fresca"
+      ]
+    },
+    {
+      "id": 12,
+      "titulo": "Ceviche de Pesca Blanca",
+      "categoria": "entradas",
+      "descripcion": "Cubos de pescado blanco fresco curados en leche de tigre clásica con maíz cancha y cebolla morada.",
+      "precio": 11800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/ceviche_swncxj.webp",
+      "ingredientes": [
+        "Pesca blanca fresca del día",
+        "leche de tigre clásica",
+        "cebolla morada y cilantro",
+        "maíz cancha crocante y batata glaseada"
+      ]
+    },
+    {
+      "id": 13,
+      "titulo": "Bondiola Braseada a la Cerveza Negra",
+      "categoria": "principales",
+      "descripcion": "Bondiola tiernizada durante 6 horas servida sobre puré rústico de batatas y miel de caña.",
+      "precio": 16900,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/bondiola_qmkiex.webp",
+      "ingredientes": [
+        "Bondiola de cerdo braseada",
+        "reducción de cerveza negra y miel",
+        "puré rústico de batata asada",
+        "cebollas caramelizadas"
+      ]
+    },
+    {
+      "id": 14,
+      "titulo": "Bife de Chorizo Clásico",
+      "categoria": "principales",
+      "descripcion": "Corte de 450g a la parrilla con chimichurri casero y papas rústicas al romero.",
+      "precio": 18200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/bife_zlz96k.webp",
+      "ingredientes": [
+        "Bife de chorizo de pastura",
+        "papas rústicas doradas",
+        "chimichurri artesanal de la casa",
+        "sal entrefina"
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "Salmón Rosado con Costra de Hierbas",
+      "categoria": "principales",
+      "descripcion": "Salmón rosado sellado a punto con costra de eneldo y mostaza dijon sobre risotto de puerros.",
+      "precio": 19800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/salmon_uqs9ot.webp",
+      "ingredientes": [
+        "Filet de salmón rosado",
+        "mostaza antigua y eneldo",
+        "arroz cremoso de puerros",
+        "reducción de cítricos"
+      ]
+    },
+    {
+      "id": 16,
+      "titulo": "Ñoquis Soufflé de Espinaca y Ricota",
+      "categoria": "vegetarianos",
+      "descripcion": "Ñoquis aireados gratinados con salsa fonduta de queso brie y nueces tostadas.",
+      "precio": 13800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/ñouis_cxyxgz.webp",
+      "ingredientes": [
+        "Espinaca fresca blanqueada",
+        "ricota artesanal de campo",
+        "fonduta de queso brie",
+        "nueces tostadas picadas"
+      ]
+    },
+    {
+      "id": 17,
+      "titulo": "Ravioles de Calabaza Asada y Mozzarella",
+      "categoria": "vegetarianos",
+      "descripcion": "Pasta rellena de calabaza ahumada con manteca de salvia, avellanas tostadas y parmesano.",
+      "precio": 13200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/ravioles_zggpib.webp",
+      "ingredientes": [
+        "Pasta fresca al huevo",
+        "calabaza cabutia asada",
+        "manteca emulsionada con salvia",
+        "avellanas crocantes y queso parmesano"
+      ]
+    },
+    {
+      "id": 18,
+      "titulo": "Milanesa de Berenjena a la Napolitana",
+      "categoria": "vegetarianos",
+      "descripcion": "Berenjena rebozada en panko, cubierta de salsa pomodoro, mozzarella derretida y orégano.",
+      "precio": 11900,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/mila_frjnsi.webp",
+      "ingredientes": [
+        "Berenjenas de huerta rebozadas",
+        "salsa pomodoro italiana",
+        "mozzarella fundida",
+        "ensalada fresca de hojas verdes"
+      ]
+    },
+    {
+      "id": 19,
+      "titulo": "Curry de Garbanzos y Leche de Coco",
+      "categoria": "veganos",
+      "descripcion": "Garbanzos estofados en salsa aromática de curry amarillo, espinaca y leche de coco sobre arroz jazmín.",
+      "precio": 12800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/curry_ztfjwm.webp",
+      "ingredientes": [
+        "Garbanzos seleccionados",
+        "leche de coco cremosa",
+        "curry amarillo y jengibre",
+        "arroz jazmín al vapor"
+      ]
+    },
+    {
+      "id": 20,
+      "titulo": "Bowl Andino de Quinoa y Palta",
+      "categoria": "veganos",
+      "descripcion": "Quinoa tricolor con palta en cubos, batata asada, semillas de girasol y aderezo de tahini y limón.",
+      "precio": 11500,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/bowl_bbngzl.webp",
+      "ingredientes": [
+        "Quinoa roja y blanca",
+        "palta hass fresca",
+        "batata asada al pimentón dulce",
+        "aderezo cremoso de sésamo y limón"
+      ]
+    },
+    {
+      "id": 21,
+      "titulo": "Hamburguesa de Hongos Portobello y Lentejas",
+      "categoria": "veganos",
+      "descripcion": "Medallón casero de lentejas y portobello en pan de masa madre con emulsión de ajo y rúcula.",
+      "precio": 13200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/hamburgesa_emgucd.webp",
+      "ingredientes": [
+        "Medallón artesanal de portobello y lentejas",
+        "pan brioche vegano de masa madre",
+        "mayonesa vegana de ajo asado",
+        "papas bastón crujientes"
+      ]
+    },
+    {
+      "id": 22,
+      "titulo": "Wok de Fideos de Arroz y Tofu Crocante",
+      "categoria": "veganos",
+      "descripcion": "Fideos de arroz salteados con cubos de tofu dorado, vegetales crujientes, sésamo y salsa de soja.",
+      "precio": 13000,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/wok_dutrf2.webp",
+      "ingredientes": [
+        "Fideos de arroz",
+        "tofu marinado y crocante",
+        "zanahoria, morrón y brotes de soja",
+        "salsa de soja y aceite de sésamo"
+      ]
+    },
+    {
+      "id": 23,
+      "titulo": "Risotto Vegano de Calabaza y Castañas",
+      "categoria": "veganos",
+      "descripcion": "Arroz carnaroli con puré suave de calabaza asada, castañas de cajú tostadas y levadura nutricional.",
+      "precio": 14600,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/risotto_kwaplx.webp",
+      "ingredientes": [
+        "Arroz carnaroli",
+        "calabaza asada procesada",
+        "castañas de cajú crocantes",
+        "caldo vegetal concentrado de hierbas"
+      ]
+    },
+    {
+      "id": 24,
+      "titulo": "Tacos Veganos de Hongos Salteados",
+      "categoria": "veganos",
+      "descripcion": "Tres tortillas de maíz rellenas de gírgolas y champiñones con guacamole fresco y pico de gallo.",
+      "precio": 12400,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/tacos_buytpw.webp",
+      "ingredientes": [
+        "Tortillas de maíz nixtamalizado",
+        "gírgolas y champiñones a la chapa",
+        "guacamole clásico artesanal",
+        "pico de gallo fresco"
+      ]
+    },
+    {
+      "id": 25,
+      "titulo": "Volcán de Chocolate Belga",
+      "categoria": "postres",
+      "descripcion": "Bizcocho tibio de chocolate semiamargo con centro fluido acompañado de helado de crema americana.",
+      "precio": 6800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/Volcán_de_Chocolate_Belga_ethzfz.webp",
+      "ingredientes": [
+        "Chocolate belga 70% cacao",
+        "manteca de campo",
+        "helado artesanal de crema",
+        "frutos rojos patagónicos"
+      ]
+    },
+    {
+      "id": 26,
+      "titulo": "Flan Casero con Dulce de Leche y Crema",
+      "categoria": "postres",
+      "descripcion": "Flan tradicional de huevos de campo infusionado con vainilla, servido con dulce de leche y crema batida.",
+      "precio": 5500,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/flan_c8d0on.webp",
+      "ingredientes": [
+        "Huevos frescos de campo",
+        "leche entera infusionada con chaucha de vainilla",
+        "caramelo dorado tradicional",
+        "dulce de leche repostero artesanal"
+      ]
+    },
+    {
+      "id": 27,
+      "titulo": "Tiramisú Tradicional de Mascarpone",
+      "categoria": "postres",
+      "descripcion": "Capas de vainillas embebidas en café espresso de especialidad y crema aireada de queso mascarpone.",
+      "precio": 7400,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/tiramisu_jgptpp.webp",
+      "ingredientes": [
+        "Queso mascarpone fresco",
+        "café espresso de especialidad",
+        "vainillas caseras al amaretto",
+        "cacao amargo puro espolvoreado"
+      ]
+    },
+    {
+      "id": 28,
+      "titulo": "Cheesecake de Frutos Rojos Patagónicos",
+      "categoria": "postres",
+      "descripcion": "Tarta suave de crema de queso sobre base crocante de galletas con confitura casera de frambuesas.",
+      "precio": 8600,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/cheescake_niqy9n.webp",
+      "ingredientes": [
+        "Queso crema natural",
+        "base crocante de galletas con manteca",
+        "frambuesas y moras frescas",
+        "reducción dulce de frutos del bosque"
+      ]
+    },
+    {
+      "id": 29,
+      "titulo": "Panqueque Tibio de Dulce de Leche Quemado",
+      "categoria": "postres",
+      "descripcion": "Dos panqueques rellenos de abundante dulce de leche colonial caramelizado con azúcar a la plancha.",
+      "precio": 5800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/panqueques_nu7e4i.webp",
+      "ingredientes": [
+        "Masa ligera de panqueque",
+        "dulce de leche colonial",
+        "azúcar caramelizada a fuego vivo"
+      ]
+    },
+    {
+      "id": 30,
+      "titulo": "Crumble Tibio de Manzanas y Canela",
+      "categoria": "postres",
+      "descripcion": "Manzanas verdes especiadas horneadas bajo cubierta crocante de avena, nuez y helado de vainilla.",
+      "precio": 8200,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/crumble_txtqdr.webp",
+      "ingredientes": [
+        "Manzanas verdes caramelizadas",
+        "canela de Ceilán",
+        "cubierta crujiente de avena y manteca",
+        "helado artesanal de vainilla"
+      ]
+    },
+    {
+      "id": 31,
+      "titulo": "Copa de Malbec Gran Reserva",
+      "categoria": "bebidas",
+      "descripcion": "Vino tinto de altura del Valle de Uco con notas a ciruela madura, chocolate y roble francés.",
+      "precio": 12000,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/malbec_takemk.webp",
+      "ingredientes": [
+        "Uva Malbec 100% de Valle de Uco",
+        "14 meses de guarda en barrica de roble"
+      ]
+    },
+    {
+      "id": 32,
+      "titulo": "Copa de Chardonnay Reserva",
+      "categoria": "bebidas",
+      "descripcion": "Vino blanco fresco y untuoso con aromas florales, notas de manzana verde y final cítrico elegante.",
+      "precio": 10900,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/vino_nml4qj.webp",
+      "ingredientes": [
+        "Uva Chardonnay seleccionada",
+        "fermentación a temperatura controlada"
+      ]
+    },
+    {
+      "id": 33,
+      "titulo": "Cerveza Artesanal IPA Patagónica (500ml)",
+      "categoria": "bebidas",
+      "descripcion": "Cerveza tirada con lúpulos patagónicos frescos, aroma floral cítrico y amargor equilibrado.",
+      "precio": 12500,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/cerveza_ae0ysp.webp",
+      "ingredientes": [
+        "Agua de deshielo patagónico",
+        "lúpulos Cascade y Victoria",
+        "malta rubia seleccionada"
+      ]
+    },
+    {
+      "id": 34,
+      "titulo": "Limonada Artesanal de Menta y Jengibre",
+      "categoria": "bebidas",
+      "descripcion": "Jugo de limón recién exprimido, hojas de menta silvestre y un toque de extracto fresco de jengibre.",
+      "precio": 6800,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/limonada_qx40sa.webp",
+      "ingredientes": [
+        "Jugo de limones frescos",
+        "menta silvestre de huerta",
+        "extracto de jengibre natural",
+        "almíbar simple casero y hielo"
+      ]
+    },
+    {
+      "id": 35,
+      "titulo": "Coca Cola - 2L",
+      "categoria": "bebidas",
+      "descripcion": "Refrescos embotellados en vidrio a elección (Coca-Cola, Coca-Cola Zero o Sprite).",
+      "precio": 4500,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/coca_vu7re4.webp",
+      "ingredientes": [
+        "Bebida gasificada servida fría con rodaja de limón a elección"
+      ]
+    },
+    {
+      "id": 36,
+      "titulo": "Agua Mineral de Manantial (500ml)",
+      "categoria": "bebidas",
+      "descripcion": "Agua pura de vertiente natural en botella de vidrio, disponible con o sin gas.",
+      "precio": 3500,
+      "imageSrc": "https://res.cloudinary.com/dfmoaz1um/image/upload/agua_mineral_kbqwfh.webp",
+      "ingredientes": [
+        "Agua mineral natural de manantial"
       ]
     }
   ]
